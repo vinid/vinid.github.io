@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Federico Bianchi</title>
+    <link>https://federicobianchi.io/event/</link>
+      <atom:link href="https://federicobianchi.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Mar 2021 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://federicobianchi.io/event/</link>
+    </image>
+    
+    <item>
+      <title>Deep Learning for Quantum Problems</title>
+      <link>https://federicobianchi.io/talk/deep-learning-for-quantum-problems/</link>
+      <pubDate>Tue, 23 Mar 2021 13:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/talk/deep-learning-for-quantum-problems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fantastic Embeddings and How to Align Them: Zero-Shot Inference in a Multi-Shop Scenario</title>
+      <link>https://federicobianchi.io/talk/fantastic-embeddings-and-how-to-align-them-zero-shot-inference-in-a-multi-shop-scenario/</link>
+      <pubDate>Tue, 23 Mar 2021 13:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/talk/fantastic-embeddings-and-how-to-align-them-zero-shot-inference-in-a-multi-shop-scenario/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning JAX for Great Good</title>
+      <link>https://federicobianchi.io/talk/learning-jax-for-great-good/</link>
+      <pubDate>Wed, 17 Feb 2021 13:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/talk/learning-jax-for-great-good/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vector Space Alignment for Semantic Change Analysis</title>
+      <link>https://federicobianchi.io/talk/vector-space-alignment-for-semantic-change-analysis/</link>
+      <pubDate>Wed, 07 Oct 2020 13:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/talk/vector-space-alignment-for-semantic-change-analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
