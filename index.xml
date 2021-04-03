@@ -29,18 +29,18 @@
     </item>
     
     <item>
-      <title>Cross-lingual Contextualized Topic Models with Zero-shot Learning</title>
-      <link>https://federicobianchi.io/publication/cross-lingual-contextualized-topic-models-for-zero-shot/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://federicobianchi.io/publication/cross-lingual-contextualized-topic-models-for-zero-shot/</guid>
+      <title>Language in a (Search) Box: Grounding Language Learning in Real-World Human-Machine Interaction</title>
+      <link>https://federicobianchi.io/publication/language-in-a-search-box/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/language-in-a-search-box/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Language in a (Search) Box: Grounding Language Learning in Real-World Human-Machine Interaction</title>
-      <link>https://federicobianchi.io/publication/language-in-a-search-box/</link>
+      <title>Cross-lingual Contextualized Topic Models with Zero-shot Learning</title>
+      <link>https://federicobianchi.io/publication/cross-lingual-contextualized-topic-models-for-zero-shot/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://federicobianchi.io/publication/language-in-a-search-box/</guid>
+      <guid>https://federicobianchi.io/publication/cross-lingual-contextualized-topic-models-for-zero-shot/</guid>
       <description></description>
     </item>
     
@@ -150,6 +150,14 @@
       <link>https://federicobianchi.io/publication/fantasitc-embeddings/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://federicobianchi.io/publication/fantasitc-embeddings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Capabilities of Logic Tensor Networks for Deductive Reasoning</title>
+      <link>https://federicobianchi.io/talk/on-the-capabilities-of-logic-tensor-networks-for-deductive-reasoning/</link>
+      <pubDate>Fri, 01 Mar 2019 13:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/talk/on-the-capabilities-of-logic-tensor-networks-for-deductive-reasoning/</guid>
       <description></description>
     </item>
     

@@ -5,7 +5,7 @@
     <link>https://federicobianchi.io/publication-type/1/</link>
       <atom:link href="https://federicobianchi.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Cross-lingual Contextualized Topic Models with Zero-shot Learning</title>
-      <link>https://federicobianchi.io/publication/cross-lingual-contextualized-topic-models-for-zero-shot/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://federicobianchi.io/publication/cross-lingual-contextualized-topic-models-for-zero-shot/</guid>
+      <title>Language in a (Search) Box: Grounding Language Learning in Real-World Human-Machine Interaction</title>
+      <link>https://federicobianchi.io/publication/language-in-a-search-box/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/language-in-a-search-box/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Language in a (Search) Box: Grounding Language Learning in Real-World Human-Machine Interaction</title>
-      <link>https://federicobianchi.io/publication/language-in-a-search-box/</link>
+      <title>Cross-lingual Contextualized Topic Models with Zero-shot Learning</title>
+      <link>https://federicobianchi.io/publication/cross-lingual-contextualized-topic-models-for-zero-shot/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://federicobianchi.io/publication/language-in-a-search-box/</guid>
+      <guid>https://federicobianchi.io/publication/cross-lingual-contextualized-topic-models-for-zero-shot/</guid>
       <description></description>
     </item>
     
