@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KG | Federico Bianchi</title>
+    <link>https://federicobianchi.io/tag/kg/</link>
+      <atom:link href="https://federicobianchi.io/tag/kg/index.xml" rel="self" type="application/rss+xml" />
+    <description>KG</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 02 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
+      <title>KG</title>
+      <link>https://federicobianchi.io/tag/kg/</link>
+    </image>
+    
+    <item>
+      <title>Towards Encoding Time in text-based Entity Embeddings</title>
+      <link>https://federicobianchi.io/publication/towards-encoding-time/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/towards-encoding-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Actively Learning to Rank Semantic Associations for Personalized Contextual Exploration of Knowledge Graphs</title>
+      <link>https://federicobianchi.io/publication/actively-learning-to-rank/</link>
+      <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/actively-learning-to-rank/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

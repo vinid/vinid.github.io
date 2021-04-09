@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sentiment Analysis | Federico Bianchi</title>
+    <link>https://federicobianchi.io/tag/sentiment-analysis/</link>
+      <atom:link href="https://federicobianchi.io/tag/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sentiment Analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 06 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
+      <title>Sentiment Analysis</title>
+      <link>https://federicobianchi.io/tag/sentiment-analysis/</link>
+    </image>
+    
+    <item>
+      <title>FEEL-IT: Emotion and Sentiment Classification for the Italian Language</title>
+      <link>https://federicobianchi.io/publication/feel-it/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/feel-it/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -17,13 +17,34 @@
     <loc>https://federicobianchi.io/publication-type/1/</loc>
     <lastmod>2021-03-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://federicobianchi.io/tag/bert/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/embeddings/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://federicobianchi.io/publication/language-in-a-search-box/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/language-models/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/linguistics/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/meaning/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/nlp/</loc>
     <lastmod>2021-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication_types/</loc>
     <lastmod>2021-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tags/</loc>
     <lastmod>2021-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/bertective/</loc>
@@ -35,6 +56,9 @@
     <loc>https://federicobianchi.io/publication/pre-training-is-a-hot-topic/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://federicobianchi.io/tag/topic-modeling/</loc>
+    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://federicobianchi.io/talk/learning-jax-for-great-good/</loc>
     <lastmod>2021-02-17T13:00:00+00:00</lastmod>
   </url><url>
@@ -42,6 +66,9 @@
     <lastmod>2021-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/feel-it/</loc>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/sentiment-analysis/</loc>
     <lastmod>2021-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/towards-neuro-symbolic/</loc>
@@ -59,9 +86,6 @@
     <loc>https://federicobianchi.io/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicobianchi.io/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://federicobianchi.io/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -74,14 +98,26 @@
     <loc>https://federicobianchi.io/talk/vector-space-alignment-for-semantic-change-analysis/</loc>
     <lastmod>2020-10-07T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://federicobianchi.io/tag/ecommerce/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://federicobianchi.io/publication/fantasitc-embeddings/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/talk/on-the-capabilities-of-logic-tensor-networks-for-deductive-reasoning/</loc>
     <lastmod>2019-03-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://federicobianchi.io/tag/kg/</loc>
+    <lastmod>2018-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/semantic-web/</loc>
+    <lastmod>2018-07-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://federicobianchi.io/publication/towards-encoding-time/</loc>
     <lastmod>2018-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication/actively-learning-to-rank/</loc>
+    <lastmod>2017-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/admin/</loc>
   </url>

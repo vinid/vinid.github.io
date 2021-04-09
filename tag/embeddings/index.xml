@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Embeddings | Federico Bianchi</title>
+    <link>https://federicobianchi.io/tag/embeddings/</link>
+      <atom:link href="https://federicobianchi.io/tag/embeddings/index.xml" rel="self" type="application/rss+xml" />
+    <description>Embeddings</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
+      <title>Embeddings</title>
+      <link>https://federicobianchi.io/tag/embeddings/</link>
+    </image>
+    
+    <item>
+      <title>Language in a (Search) Box: Grounding Language Learning in Real-World Human-Machine Interaction</title>
+      <link>https://federicobianchi.io/publication/language-in-a-search-box/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/language-in-a-search-box/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FEEL-IT: Emotion and Sentiment Classification for the Italian Language</title>
+      <link>https://federicobianchi.io/publication/feel-it/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/feel-it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fantastic Embeddings and How to Align Them: Zero-Shot Inference in a Multi-Shop Scenario</title>
+      <link>https://federicobianchi.io/publication/fantasitc-embeddings/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/fantasitc-embeddings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Encoding Time in text-based Entity Embeddings</title>
+      <link>https://federicobianchi.io/publication/towards-encoding-time/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/towards-encoding-time/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
