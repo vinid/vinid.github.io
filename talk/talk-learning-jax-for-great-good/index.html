@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="Sentiment analysis is a common task to understand people&#39;s reactions online. Still, we often need more nuanced information: is the post negative because the user is angry or because they are sad? An abundance of approaches has been introduced for tackling both tasks. However, at least for Italian, they all treat only one of the tasks at a time. We introduce FEEL-IT, a novel benchmark corpus of Italian Twitter posts annotated with four basic emotions: anger, fear, joy, sadness. By collapsing them, we can also do sentiment analysis. We evaluate our corpus on benchmark datasets for both emotion and sentiment classification,  obtaining competitive results. We release an open-source Python library, so researchers can use a model trained on FEEL-IT for inferring both sentiments and emotions from Italian text." />
+  <meta name="description" content="I gave a tutorial on JAX,  the new google framework for deep learning. I have described how to compute simple derivatives and finished describing some applications in NLP." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://federicobianchi.io/publication/feel-it/" />
+  <link rel="alternate" hreflang="en-us" href="https://federicobianchi.io/talk/talk-learning-jax-for-great-good/" />
 
   
 
@@ -312,7 +312,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="https://federicobianchi.io/publication/feel-it/" />
+  <link rel="canonical" href="https://federicobianchi.io/talk/talk-learning-jax-for-great-good/" />
 
   
   
@@ -323,35 +323,31 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Federico Bianchi" />
-  <meta property="og:url" content="https://federicobianchi.io/publication/feel-it/" />
-  <meta property="og:title" content="FEEL-IT: Emotion and Sentiment Classification for the Italian Language | Federico Bianchi" />
-  <meta property="og:description" content="Sentiment analysis is a common task to understand people&#39;s reactions online. Still, we often need more nuanced information: is the post negative because the user is angry or because they are sad? An abundance of approaches has been introduced for tackling both tasks. However, at least for Italian, they all treat only one of the tasks at a time. We introduce FEEL-IT, a novel benchmark corpus of Italian Twitter posts annotated with four basic emotions: anger, fear, joy, sadness. By collapsing them, we can also do sentiment analysis. We evaluate our corpus on benchmark datasets for both emotion and sentiment classification,  obtaining competitive results. We release an open-source Python library, so researchers can use a model trained on FEEL-IT for inferring both sentiments and emotions from Italian text." /><meta property="og:image" content="https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://federicobianchi.io/talk/talk-learning-jax-for-great-good/" />
+  <meta property="og:title" content="Talk: Learning JAX for Great Good | Federico Bianchi" />
+  <meta property="og:description" content="I gave a tutorial on JAX,  the new google framework for deep learning. I have described how to compute simple derivatives and finished describing some applications in NLP." /><meta property="og:image" content="https://federicobianchi.io/talk/talk-learning-jax-for-great-good/featured.png" />
+    <meta property="twitter:image" content="https://federicobianchi.io/talk/talk-learning-jax-for-great-good/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2021-02-06T00:00:00&#43;00:00"
+        content="2021-03-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2021-02-06T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-02-17T13:00:00&#43;00:00">
   
 
   
 
 
+
+  
     
-
-
-
-
-
 
 
 
@@ -359,30 +355,32 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://federicobianchi.io/publication/feel-it/"
+    "@id": "https://federicobianchi.io/talk/talk-learning-jax-for-great-good/"
   },
-  "headline": "FEEL-IT: Emotion and Sentiment Classification for the Italian Language",
+  "name": "Talk: Learning JAX for Great Good",
   
-  "datePublished": "2021-02-06T00:00:00Z",
-  "dateModified": "2021-02-06T00:00:00Z",
+  "location": {
+    "@type": "Place",
+    "name": "Coveo Labs"
+  },
   
-  "author": {
+  
+  "image": [
+    "https://federicobianchi.io/talk/talk-learning-jax-for-great-good/featured.png"
+  ],
+  
+  "startDate": "2021-02-17T13:00:00Z",
+  
+  
+  "performer": {
     "@type": "Person",
     "name": "Federico Bianchi"
   },
   
-  "publisher": {
-    "@type": "Organization",
-    "name": "Federico Bianchi",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_192x192_fill_lanczos_center_2.png"
-    }
-  },
-  "description": "Sentiment analysis is a common task to understand people's reactions online. Still, we often need more nuanced information: is the post negative because the user is angry or because they are sad? An abundance of approaches has been introduced for tackling both tasks. However, at least for Italian, they all treat only one of the tasks at a time. We introduce FEEL-IT, a novel benchmark corpus of Italian Twitter posts annotated with four basic emotions: anger, fear, joy, sadness. By collapsing them, we can also do sentiment analysis. We evaluate our corpus on benchmark datasets for both emotion and sentiment classification,  obtaining competitive results. We release an open-source Python library, so researchers can use a model trained on FEEL-IT for inferring both sentiments and emotions from Italian text."
+  "description": "I gave a tutorial on JAX,  the new google framework for deep learning. I have described how to compute simple derivatives and finished describing some applications in NLP."
 }
 </script>
 
@@ -392,17 +390,15 @@
 
   
 
-  
 
 
 
 
-
-  <title>FEEL-IT: Emotion and Sentiment Classification for the Italian Language | Federico Bianchi</title>
+  <title>Talk: Learning JAX for Great Good | Federico Bianchi</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="60525cb6479816ccd24e6db1cfb9a0b1" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="f962e0e4405e52f2de6ccd416d10f4b4" >
 
   
   
@@ -720,16 +716,7 @@
   </div>
 
   <div class="page-body">
-    
-
-
-
-
-
-
-
-
-<div class="pub">
+    <div class="pub">
 
   
 
@@ -744,18 +731,24 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
-  <h1>FEEL-IT: Emotion and Sentiment Classification for the Italian Language</h1>
+  <h1>Talk: Learning JAX for Great Good</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -768,21 +761,11 @@
     
 
   <span >
-      Federico Bianchi</span>, <span >
-      Debora Nozza</span>, <span >
-      Dirk Hovy</span>
+      Federico Bianchi</span>
   </div>
   
   
 
-  
-  <span class="article-date">
-    
-    
-      
-    
-    February 2021
-  </span>
   
 
   
@@ -801,7 +784,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -823,19 +806,6 @@
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/feel-it/cite.bib">
-  Cite
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/MilaNLProc/feel-it" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -860,16 +830,23 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://towardsdatascience.com/sentiment-analysis-and-emotion-recognition-in-italian-using-bert-92f5c8fe8a2" target="_blank" rel="noopener">
-    
-    Blog Post
+  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/fb_vinid" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>
+    Follow
   </a>
 
 
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 250px; max-height: 145px;">
+  <div style="position: relative">
+    <img src="/talk/talk-learning-jax-for-great-good/featured.png" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://raw.githubusercontent.com/google/jax/master/images/jax_logo_250px.png"><strong>Google JAX</strong></a></span>
+  </div>
 </div>
 
 
@@ -877,21 +854,34 @@
   <div class="article-container">
 
     
-    <h3>Abstract</h3>
-    <p class="pub-abstract">Sentiment analysis is a common task to understand people&rsquo;s reactions online. Still, we often need more nuanced information: is the post negative because the user is angry or because they are sad? An abundance of approaches has been introduced for tackling both tasks. However, at least for Italian, they all treat only one of the tasks at a time. We introduce FEEL-IT, a novel benchmark corpus of Italian Twitter posts annotated with four basic emotions: anger, fear, joy, sadness. By collapsing them, we can also do sentiment analysis. We evaluate our corpus on benchmark datasets for both emotion and sentiment classification,  obtaining competitive results. We release an open-source Python library, so researchers can use a model trained on FEEL-IT for inferring both sentiments and emotions from Italian text.</p>
+      <h3>Abstract</h3>
+      <p class="pub-abstract">In this tutorial I introduce JAX, the new google framework for deep learning. We first introduce the main peculiarities and describe how to compute gradients to optimize simple ML algorithms. Eventually, we implement more complex NLP pipelines, showing were JAX modularity comes to shine.</p>
     
 
-    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Feb 17, 2021 1:00 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#2">
-              Journal article
-            </a>
+            
+            Invited Talk
+            
           </div>
         </div>
       </div>
@@ -905,8 +895,9 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In 11th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis.</div>
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Coveo Labs</div>
+          
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -916,7 +907,9 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"></div>
+    <div class="article-style">
+      
+    </div>
 
     
 
@@ -924,20 +917,6 @@
 
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tag/nlp/">NLP</a>
-  
-  <a class="badge badge-light" href="/tag/sentiment-analysis/">Sentiment Analysis</a>
-  
-  <a class="badge badge-light" href="/tag/bert/">BERT</a>
-  
-  <a class="badge badge-light" href="/tag/embeddings/">Embeddings</a>
-  
-  <a class="badge badge-light" href="/tag/language-models/">Language Models</a>
-  
-</div>
 
 
 
@@ -952,7 +931,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://federicobianchi.io/publication/feel-it/&amp;text=FEEL-IT:%20Emotion%20and%20Sentiment%20Classification%20for%20the%20Italian%20Language" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://federicobianchi.io/talk/talk-learning-jax-for-great-good/&amp;text=Talk:%20Learning%20JAX%20for%20Great%20Good" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -965,7 +944,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://federicobianchi.io/publication/feel-it/&amp;t=FEEL-IT:%20Emotion%20and%20Sentiment%20Classification%20for%20the%20Italian%20Language" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://federicobianchi.io/talk/talk-learning-jax-for-great-good/&amp;t=Talk:%20Learning%20JAX%20for%20Great%20Good" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -978,7 +957,7 @@
       
       
       <li>
-        <a href="mailto:?subject=FEEL-IT:%20Emotion%20and%20Sentiment%20Classification%20for%20the%20Italian%20Language&amp;body=https://federicobianchi.io/publication/feel-it/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Talk:%20Learning%20JAX%20for%20Great%20Good&amp;body=https://federicobianchi.io/talk/talk-learning-jax-for-great-good/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -991,7 +970,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://federicobianchi.io/publication/feel-it/&amp;title=FEEL-IT:%20Emotion%20and%20Sentiment%20Classification%20for%20the%20Italian%20Language" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://federicobianchi.io/talk/talk-learning-jax-for-great-good/&amp;title=Talk:%20Learning%20JAX%20for%20Great%20Good" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1004,7 +983,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=FEEL-IT:%20Emotion%20and%20Sentiment%20Classification%20for%20the%20Italian%20Language%20https://federicobianchi.io/publication/feel-it/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Talk:%20Learning%20JAX%20for%20Great%20Good%20https://federicobianchi.io/talk/talk-learning-jax-for-great-good/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1017,7 +996,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://federicobianchi.io/publication/feel-it/&amp;title=FEEL-IT:%20Emotion%20and%20Sentiment%20Classification%20for%20the%20Italian%20Language" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://federicobianchi.io/talk/talk-learning-jax-for-great-good/&amp;title=Talk:%20Learning%20JAX%20for%20Great%20Good" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1043,18 +1022,6 @@
 
 
   
-    
-
-
-
-
-  
-    
-
-
-
-
-  
 
 
 
@@ -1070,23 +1037,6 @@
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/language-in-a-search-box/">Language in a (Search) Box: Grounding Language Learning in Real-World Human-Machine Interaction</a></li>
-      
-      <li><a href="/publication/cross-lingual-contextualized-topic-models-for-zero-shot/">Cross-lingual Contextualized Topic Models with Zero-shot Learning</a></li>
-      
-      <li><a href="/publication/pre-training-is-a-hot-topic/">Pre-training is a Hot Topic: Contextualized Document Embeddings Improve Topic Coherence</a></li>
-      
-      <li><a href="/publication/fantasitc-embeddings/">Fantastic Embeddings and How to Align Them: Zero-Shot Inference in a Multi-Shop Scenario</a></li>
-      
-      <li><a href="/publication/training-temporal-compass/"> Training Temporal Word Embeddings with a Compass</a></li>
-      
-    </ul>
-  </div>
   
 
 
