@@ -5,12 +5,28 @@
     <link>https://federicobianchi.io/</link>
       <atom:link href="https://federicobianchi.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Federico Bianchi</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
       <title>Federico Bianchi</title>
       <link>https://federicobianchi.io/</link>
     </image>
+    
+    <item>
+      <title>On the Gap between Adoption and Understanding in NLP</title>
+      <link>https://federicobianchi.io/publication/gap-between-understanding-adoption/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/gap-between-understanding-adoption/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pre-training is a Hot Topic: Contextualized Document Embeddings Improve Topic Coherence</title>
+      <link>https://federicobianchi.io/publication/contextualized-improve-topic-models-coherence/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/contextualized-improve-topic-models-coherence/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Words with Consistent Diachronic Usage Patterns are Learned Earlier: A Computational Analysis Using Temporally Aligned Word Embeddings.</title>

@@ -2,13 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://federicobianchi.io/publication-type/1/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/coherence/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/issues/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/nlp/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication/gap-between-understanding-adoption/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/position-paper/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication/contextualized-improve-topic-models-coherence/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication_types/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tags/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/topic-modeling/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://federicobianchi.io/publication-type/2/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/tag/embeddings/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/tag/linguistics/</loc>
@@ -17,19 +50,7 @@
     <loc>https://federicobianchi.io/tag/meaning/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicobianchi.io/tag/nlp/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/publication_types/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/publication/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://federicobianchi.io/tag/semantic-change/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/tags/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/diachronic-language-acquistion/</loc>
@@ -43,9 +64,6 @@
   </url><url>
     <loc>https://federicobianchi.io/talk/talk-fantastic-embeddings-and-how-to-align-them/</loc>
     <lastmod>2021-03-23T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/publication-type/1/</loc>
-    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/tag/bert/</loc>
     <lastmod>2021-03-02T00:00:00+00:00</lastmod>
@@ -63,9 +81,6 @@
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/pre-training-is-a-hot-topic/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/tag/topic-modeling/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/talk/talk-learning-jax-for-great-good/</loc>
