@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="Knowledge Graphs (KG) are widely used abstractions to represent entity-centric knowledge. Approaches to embed entities, entity types and relations represented in the graph into vector spaces - often referred to as KG embeddings - have become increasingly popular for their ability to capture the similarity between entities and support other reasoning tasks. However, representation of time has received little attention in these approaches. In this work, we make a first step to encode time into vector-based entity representations using a text-based KG embedding model named Typed Entity Embeddings (TEEs). In TEEs, each entity is represented by a vector that represents the entity and its type, which is learned from entity mentions found in a text corpus. Inspired by evidence from cognitive sciences and application-oriented concerns, we propose an approach to encode representations of years into TEEs by aggregating the representations of the entities that occur in event-based descriptions of the years. These representations are used to define two time-aware similarity measures to control the implicit effect of time on entity similarity. Experimental results show that the linear order of years obtained using our model is highly correlated with natural time flow and the effectiveness of the time-aware similarity measure proposed to flatten the time effect on entity similarity" />
+  <meta name="description" content="We present Query2Prod2Vec, a model that grounds lexical representations for product search in product embeddings: in our model, meaning is a mapping between words and a latent space of products in a digital shop. We leverage shopping sessions to learn the underlying space and use merchandising annotations to build lexical analogies for evaluation: our experiments show that our model is more accurate than known techniques from the NLP and IR literature. Finally, we stress the importance of data efficiency for product search outside of retail giants, and highlight how Query2Prod2Vec fits with practical constraints faced by most practitioners." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://federicobianchi.io/publication/towards-encoding-time/" />
+  <link rel="alternate" hreflang="en-us" href="https://federicobianchi.io/publication/query2prod2vec/" />
 
   
 
@@ -312,7 +312,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="https://federicobianchi.io/publication/towards-encoding-time/" />
+  <link rel="canonical" href="https://federicobianchi.io/publication/query2prod2vec/" />
 
   
   
@@ -323,24 +323,23 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Federico Bianchi" />
-  <meta property="og:url" content="https://federicobianchi.io/publication/towards-encoding-time/" />
-  <meta property="og:title" content="Towards Encoding Time in text-based Entity Embeddings | Federico Bianchi" />
-  <meta property="og:description" content="Knowledge Graphs (KG) are widely used abstractions to represent entity-centric knowledge. Approaches to embed entities, entity types and relations represented in the graph into vector spaces - often referred to as KG embeddings - have become increasingly popular for their ability to capture the similarity between entities and support other reasoning tasks. However, representation of time has received little attention in these approaches. In this work, we make a first step to encode time into vector-based entity representations using a text-based KG embedding model named Typed Entity Embeddings (TEEs). In TEEs, each entity is represented by a vector that represents the entity and its type, which is learned from entity mentions found in a text corpus. Inspired by evidence from cognitive sciences and application-oriented concerns, we propose an approach to encode representations of years into TEEs by aggregating the representations of the entities that occur in event-based descriptions of the years. These representations are used to define two time-aware similarity measures to control the implicit effect of time on entity similarity. Experimental results show that the linear order of years obtained using our model is highly correlated with natural time flow and the effectiveness of the time-aware similarity measure proposed to flatten the time effect on entity similarity" /><meta property="og:image" content="https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://federicobianchi.io/publication/query2prod2vec/" />
+  <meta property="og:title" content="Query2Prod2Vec: Grounded Word Embeddings for eCommerce | Federico Bianchi" />
+  <meta property="og:description" content="We present Query2Prod2Vec, a model that grounds lexical representations for product search in product embeddings: in our model, meaning is a mapping between words and a latent space of products in a digital shop. We leverage shopping sessions to learn the underlying space and use merchandising annotations to build lexical analogies for evaluation: our experiments show that our model is more accurate than known techniques from the NLP and IR literature. Finally, we stress the importance of data efficiency for product search outside of retail giants, and highlight how Query2Prod2Vec fits with practical constraints faced by most practitioners." /><meta property="og:image" content="https://federicobianchi.io/publication/query2prod2vec/featured.jpg" />
+    <meta property="twitter:image" content="https://federicobianchi.io/publication/query2prod2vec/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2018-07-02T00:00:00&#43;00:00"
+        content="2021-03-02T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2018-07-02T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-03-02T00:00:00&#43;00:00">
   
 
   
@@ -362,12 +361,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://federicobianchi.io/publication/towards-encoding-time/"
+    "@id": "https://federicobianchi.io/publication/query2prod2vec/"
   },
-  "headline": "Towards Encoding Time in text-based Entity Embeddings",
+  "headline": "Query2Prod2Vec: Grounded Word Embeddings for eCommerce",
   
-  "datePublished": "2018-07-02T00:00:00Z",
-  "dateModified": "2018-07-02T00:00:00Z",
+  "image": [
+    "https://federicobianchi.io/publication/query2prod2vec/featured.jpg"
+  ],
+  
+  "datePublished": "2021-03-02T00:00:00Z",
+  "dateModified": "2021-03-02T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -382,7 +385,7 @@
       "url": "https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Knowledge Graphs (KG) are widely used abstractions to represent entity-centric knowledge. Approaches to embed entities, entity types and relations represented in the graph into vector spaces - often referred to as KG embeddings - have become increasingly popular for their ability to capture the similarity between entities and support other reasoning tasks. However, representation of time has received little attention in these approaches. In this work, we make a first step to encode time into vector-based entity representations using a text-based KG embedding model named Typed Entity Embeddings (TEEs). In TEEs, each entity is represented by a vector that represents the entity and its type, which is learned from entity mentions found in a text corpus. Inspired by evidence from cognitive sciences and application-oriented concerns, we propose an approach to encode representations of years into TEEs by aggregating the representations of the entities that occur in event-based descriptions of the years. These representations are used to define two time-aware similarity measures to control the implicit effect of time on entity similarity. Experimental results show that the linear order of years obtained using our model is highly correlated with natural time flow and the effectiveness of the time-aware similarity measure proposed to flatten the time effect on entity similarity"
+  "description": "We present Query2Prod2Vec, a model that grounds lexical representations for product search in product embeddings: in our model, meaning is a mapping between words and a latent space of products in a digital shop. We leverage shopping sessions to learn the underlying space and use merchandising annotations to build lexical analogies for evaluation: our experiments show that our model is more accurate than known techniques from the NLP and IR literature. Finally, we stress the importance of data efficiency for product search outside of retail giants, and highlight how Query2Prod2Vec fits with practical constraints faced by most practitioners."
 }
 </script>
 
@@ -398,11 +401,11 @@
 
 
 
-  <title>Towards Encoding Time in text-based Entity Embeddings | Federico Bianchi</title>
+  <title>Query2Prod2Vec: Grounded Word Embeddings for eCommerce | Federico Bianchi</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3b401328c412d7509d701786182012cd" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="b1af67826fd1fd6d9e377d57b8d0cb82" >
 
   
   
@@ -744,18 +747,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
-  
-  
-<div class="article-container pt-3">
-  <h1>Towards Encoding Time in text-based Entity Embeddings</h1>
-
-  
-
   
     
+  
+
+
+<div class="article-container pt-3">
+  <h1>Query2Prod2Vec: Grounded Word Embeddings for eCommerce</h1>
+
+  
+
+  
 
 
 <div class="article-metadata">
@@ -769,8 +780,8 @@
 
   <span class="author-highlighted">
       Federico Bianchi</span>, <span >
-      Matteo Palmonari</span>, <span >
-      Debora Nozza</span>
+      Jacopo Tagliabue</span>, <span >
+      Bingqing Yu</span>
   </div>
   
   
@@ -781,7 +792,7 @@
     
       
     
-    July 2018
+    March 2021
   </span>
   
 
@@ -801,7 +812,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -823,51 +834,61 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://link.springer.com/chapter/10.1007/978-3-030-00671-6_4" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://www.aclweb.org/anthology/2021.naacl-industry.20.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/towards-encoding-time/cite.bib">
+        data-filename="/publication/query2prod2vec/cite.bib">
   Cite
 </a>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/vinid/time-aware" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
   
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="http://videolectures.net/iswc2018_bianchi_towards_encoding_time/" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/publication/query2prod2vec/certificate.pdf" >
+    
+    Best Industry Paper Award
+  </a>
 
 
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
+  <div style="position: relative">
+    <img src="/publication/query2prod2vec/featured_hu877f7b01be44e0cb7bf42d95dbbbb173_39843_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -876,7 +897,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Knowledge Graphs (KG) are widely used abstractions to represent entity-centric knowledge. Approaches to embed entities, entity types and relations represented in the graph into vector spaces - often referred to as KG embeddings - have become increasingly popular for their ability to capture the similarity between entities and support other reasoning tasks. However, representation of time has received little attention in these approaches. In this work, we make a first step to encode time into vector-based entity representations using a text-based KG embedding model named Typed Entity Embeddings (TEEs). In TEEs, each entity is represented by a vector that represents the entity and its type, which is learned from entity mentions found in a text corpus. Inspired by evidence from cognitive sciences and application-oriented concerns, we propose an approach to encode representations of years into TEEs by aggregating the representations of the entities that occur in event-based descriptions of the years. These representations are used to define two time-aware similarity measures to control the implicit effect of time on entity similarity. Experimental results show that the linear order of years obtained using our model is highly correlated with natural time flow and the effectiveness of the time-aware similarity measure proposed to flatten the time effect on entity similarity</p>
+    <p class="pub-abstract">We present Query2Prod2Vec, a model that grounds lexical representations for product search in product embeddings: in our model, meaning is a mapping between words and a latent space of products in a digital shop. We leverage shopping sessions to learn the underlying space and use merchandising annotations to build lexical analogies for evaluation: our experiments show that our model is more accurate than known techniques from the NLP and IR literature. Finally, we stress the importance of data efficiency for product search outside of retail giants, and highlight how Query2Prod2Vec fits with practical constraints faced by most practitioners.</p>
     
 
     
@@ -904,7 +925,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In International Semantic Web Conference</div>
+          <div class="col-12 col-md-9">In Proceedings of <em>The North American Chapter of the Association for Computational Linguistics</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -925,13 +946,19 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/semantic-web/">Semantic Web</a>
-  
   <a class="badge badge-light" href="/tag/nlp/">NLP</a>
   
-  <a class="badge badge-light" href="/tag/kg/">KG</a>
+  <a class="badge badge-light" href="/tag/meaning/">Meaning</a>
+  
+  <a class="badge badge-light" href="/tag/linguistics/">Linguistics</a>
+  
+  <a class="badge badge-light" href="/tag/bert/">BERT</a>
   
   <a class="badge badge-light" href="/tag/embeddings/">Embeddings</a>
+  
+  <a class="badge badge-light" href="/tag/language-models/">Language Models</a>
+  
+  <a class="badge badge-light" href="/tag/ecommerce/">Ecommerce</a>
   
 </div>
 
@@ -948,7 +975,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://federicobianchi.io/publication/towards-encoding-time/&amp;text=Towards%20Encoding%20Time%20in%20text-based%20Entity%20Embeddings" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://federicobianchi.io/publication/query2prod2vec/&amp;text=Query2Prod2Vec:%20Grounded%20Word%20Embeddings%20for%20eCommerce" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -961,7 +988,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://federicobianchi.io/publication/towards-encoding-time/&amp;t=Towards%20Encoding%20Time%20in%20text-based%20Entity%20Embeddings" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://federicobianchi.io/publication/query2prod2vec/&amp;t=Query2Prod2Vec:%20Grounded%20Word%20Embeddings%20for%20eCommerce" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -974,7 +1001,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Towards%20Encoding%20Time%20in%20text-based%20Entity%20Embeddings&amp;body=https://federicobianchi.io/publication/towards-encoding-time/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Query2Prod2Vec:%20Grounded%20Word%20Embeddings%20for%20eCommerce&amp;body=https://federicobianchi.io/publication/query2prod2vec/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -987,7 +1014,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://federicobianchi.io/publication/towards-encoding-time/&amp;title=Towards%20Encoding%20Time%20in%20text-based%20Entity%20Embeddings" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://federicobianchi.io/publication/query2prod2vec/&amp;title=Query2Prod2Vec:%20Grounded%20Word%20Embeddings%20for%20eCommerce" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1000,7 +1027,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Towards%20Encoding%20Time%20in%20text-based%20Entity%20Embeddings%20https://federicobianchi.io/publication/towards-encoding-time/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Query2Prod2Vec:%20Grounded%20Word%20Embeddings%20for%20eCommerce%20https://federicobianchi.io/publication/query2prod2vec/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1013,7 +1040,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://federicobianchi.io/publication/towards-encoding-time/&amp;title=Towards%20Encoding%20Time%20in%20text-based%20Entity%20Embeddings" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://federicobianchi.io/publication/query2prod2vec/&amp;title=Query2Prod2Vec:%20Grounded%20Word%20Embeddings%20for%20eCommerce" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1180,15 +1207,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/actively-learning-to-rank/">Actively Learning to Rank Semantic Associations for Personalized Contextual Exploration of Knowledge Graphs</a></li>
+      <li><a href="/publication/language-in-a-search-box/">Language in a (Search) Box: Grounding Language Learning in Real-World Human-Machine Interaction</a></li>
       
       <li><a href="/publication/diachronic-language-acquistion/">Words with Consistent Diachronic Usage Patterns are Learned Earlier: A Computational Analysis Using Temporally Aligned Word Embeddings.</a></li>
       
-      <li><a href="/publication/language-in-a-search-box/">Language in a (Search) Box: Grounding Language Learning in Real-World Human-Machine Interaction</a></li>
-      
-      <li><a href="/publication/query2prod2vec/">Query2Prod2Vec: Grounded Word Embeddings for eCommerce</a></li>
-      
       <li><a href="/publication/feel-it/">FEEL-IT: Emotion and Sentiment Classification for the Italian Language</a></li>
+      
+      <li><a href="/publication/fantastic-embeddings/">Fantastic Embeddings and How to Align Them: Zero-Shot Inference in a Multi-Shop Scenario</a></li>
+      
+      <li><a href="/publication/cross-lingual-contextualized-topic-models-for-zero-shot/">Cross-lingual Contextualized Topic Models with Zero-shot Learning</a></li>
       
     </ul>
   </div>

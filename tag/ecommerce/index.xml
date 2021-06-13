@@ -5,12 +5,20 @@
     <link>https://federicobianchi.io/tag/ecommerce/</link>
       <atom:link href="https://federicobianchi.io/tag/ecommerce/index.xml" rel="self" type="application/rss+xml" />
     <description>Ecommerce</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
       <title>Ecommerce</title>
       <link>https://federicobianchi.io/tag/ecommerce/</link>
     </image>
+    
+    <item>
+      <title>Query2Prod2Vec: Grounded Word Embeddings for eCommerce</title>
+      <link>https://federicobianchi.io/publication/query2prod2vec/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/query2prod2vec/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fantastic Embeddings and How to Align Them: Zero-Shot Inference in a Multi-Shop Scenario</title>
