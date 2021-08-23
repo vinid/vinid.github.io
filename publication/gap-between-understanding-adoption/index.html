@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="There are some issues with current research trends in NLP that can hamper the free development of scientific research. We identify five of particular concern: 1) the early adoption of methods without sufficient understanding or analysis; 2) the preference for computational methods regardless of risks associated with their limitations; 3) the resulting bias in the papers we publish; 4) the impossibility of re-running some experiments due to their cost; 5) the dangers of unexplainable methods.  If these issues are not addressed, we risk a loss of reproducibility, reputability, and subsequently public trust in our field. In this position paper, we outline each of these points and suggest ways forward." />
+  <meta name="description" content="CLIP (Contrastive Language-Image Pre-training) is a very recent multi-modal model that jointly learns representations of images and texts. The model is trained on a massive amount of English data and shows impressive performance on zero-shot classification tasks. Training the same model on a different language is not trivial, since data in other languages might be not enough and the model needs high-quality translations of the texts to guarantee a good performance. In this paper, we present the first CLIP model for the Italian Language (CLIP-Italian), trained on more than 1.4 million image-text pairs. Results show that CLIP-Italian outperforms the multilingual CLIP model on the tasks of image retrieval and zero-shot classification." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://federicobianchi.io/publication/gap-between-understanding-adoption/" />
@@ -329,17 +329,17 @@
   
   <meta property="og:site_name" content="Federico Bianchi" />
   <meta property="og:url" content="https://federicobianchi.io/publication/gap-between-understanding-adoption/" />
-  <meta property="og:title" content="On the Gap between Adoption and Understanding in NLP | Federico Bianchi" />
-  <meta property="og:description" content="There are some issues with current research trends in NLP that can hamper the free development of scientific research. We identify five of particular concern: 1) the early adoption of methods without sufficient understanding or analysis; 2) the preference for computational methods regardless of risks associated with their limitations; 3) the resulting bias in the papers we publish; 4) the impossibility of re-running some experiments due to their cost; 5) the dangers of unexplainable methods.  If these issues are not addressed, we risk a loss of reproducibility, reputability, and subsequently public trust in our field. In this position paper, we outline each of these points and suggest ways forward." /><meta property="og:image" content="https://federicobianchi.io/publication/gap-between-understanding-adoption/featured.png" />
+  <meta property="og:title" content="Contrastive Language-Image Pre-training for the Italian Language | Federico Bianchi" />
+  <meta property="og:description" content="CLIP (Contrastive Language-Image Pre-training) is a very recent multi-modal model that jointly learns representations of images and texts. The model is trained on a massive amount of English data and shows impressive performance on zero-shot classification tasks. Training the same model on a different language is not trivial, since data in other languages might be not enough and the model needs high-quality translations of the texts to guarantee a good performance. In this paper, we present the first CLIP model for the Italian Language (CLIP-Italian), trained on more than 1.4 million image-text pairs. Results show that CLIP-Italian outperforms the multilingual CLIP model on the tasks of image retrieval and zero-shot classification." /><meta property="og:image" content="https://federicobianchi.io/publication/gap-between-understanding-adoption/featured.png" />
     <meta property="twitter:image" content="https://federicobianchi.io/publication/gap-between-understanding-adoption/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2021-05-06T01:41:26&#43;01:00"
+        content="2021-08-22T01:41:26&#43;01:00"
       />
     
-    <meta property="article:modified_time" content="2021-08-06T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-08-22T00:00:00&#43;00:00">
   
 
   
@@ -363,14 +363,14 @@
     "@type": "WebPage",
     "@id": "https://federicobianchi.io/publication/gap-between-understanding-adoption/"
   },
-  "headline": "On the Gap between Adoption and Understanding in NLP",
+  "headline": "Contrastive Language-Image Pre-training for the Italian Language",
   
   "image": [
     "https://federicobianchi.io/publication/gap-between-understanding-adoption/featured.png"
   ],
   
-  "datePublished": "2021-05-06T01:41:26+01:00",
-  "dateModified": "2021-08-06T00:00:00Z",
+  "datePublished": "2021-08-22T01:41:26+01:00",
+  "dateModified": "2021-08-22T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -385,7 +385,7 @@
       "url": "https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "There are some issues with current research trends in NLP that can hamper the free development of scientific research. We identify five of particular concern: 1) the early adoption of methods without sufficient understanding or analysis; 2) the preference for computational methods regardless of risks associated with their limitations; 3) the resulting bias in the papers we publish; 4) the impossibility of re-running some experiments due to their cost; 5) the dangers of unexplainable methods.  If these issues are not addressed, we risk a loss of reproducibility, reputability, and subsequently public trust in our field. In this position paper, we outline each of these points and suggest ways forward."
+  "description": "CLIP (Contrastive Language-Image Pre-training) is a very recent multi-modal model that jointly learns representations of images and texts. The model is trained on a massive amount of English data and shows impressive performance on zero-shot classification tasks. Training the same model on a different language is not trivial, since data in other languages might be not enough and the model needs high-quality translations of the texts to guarantee a good performance. In this paper, we present the first CLIP model for the Italian Language (CLIP-Italian), trained on more than 1.4 million image-text pairs. Results show that CLIP-Italian outperforms the multilingual CLIP model on the tasks of image retrieval and zero-shot classification."
 }
 </script>
 
@@ -401,7 +401,7 @@
 
 
 
-  <title>On the Gap between Adoption and Understanding in NLP | Federico Bianchi</title>
+  <title>Contrastive Language-Image Pre-training for the Italian Language | Federico Bianchi</title>
 </head>
 
 
@@ -762,7 +762,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>On the Gap between Adoption and Understanding in NLP</h1>
+  <h1>Contrastive Language-Image Pre-training for the Italian Language</h1>
 
   
 
@@ -780,7 +780,11 @@
 
   <span >
       Federico Bianchi</span>, <span >
-      Dirk Hovy</span>
+      Giuseppe Attanasio</span>, <span >
+      Raphael Pisoni</span>, <span >
+      Silvia Terragni</span>, <span >
+      Gabriele Sarti</span>, <span >
+      Sri Lakshmi</span>
   </div>
   
   
@@ -833,7 +837,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://aclanthology.org/2021.findings-acl.340.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2108.08688" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -845,6 +849,14 @@
 </a>
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/clip-italian/clip-italian/" target="_blank" rel="noopener">
+  Code
+</a>
+
 
 
 
@@ -868,9 +880,9 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://towardsdatascience.com/on-the-gap-between-adoption-and-understanding-971c3d63f524" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header" href="https://huggingface.co/spaces/clip-italian/clip-italian-demo" target="_blank" rel="noopener">
     
-    Blog Post
+    Demo
   </a>
 
 
@@ -893,7 +905,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">There are some issues with current research trends in NLP that can hamper the free development of scientific research. We identify five of particular concern: 1) the early adoption of methods without sufficient understanding or analysis; 2) the preference for computational methods regardless of risks associated with their limitations; 3) the resulting bias in the papers we publish; 4) the impossibility of re-running some experiments due to their cost; 5) the dangers of unexplainable methods.  If these issues are not addressed, we risk a loss of reproducibility, reputability, and subsequently public trust in our field. In this position paper, we outline each of these points and suggest ways forward.</p>
+    <p class="pub-abstract">CLIP (Contrastive Language-Image Pre-training) is a very recent multi-modal model that jointly learns representations of images and texts. The model is trained on a massive amount of English data and shows impressive performance on zero-shot classification tasks. Training the same model on a different language is not trivial, since data in other languages might be not enough and the model needs high-quality translations of the texts to guarantee a good performance. In this paper, we present the first CLIP model for the Italian Language (CLIP-Italian), trained on more than 1.4 million image-text pairs. Results show that CLIP-Italian outperforms the multilingual CLIP model on the tasks of image retrieval and zero-shot classification.</p>
     
 
     
@@ -904,8 +916,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#3">
+              Preprint
             </a>
           </div>
         </div>
@@ -921,7 +933,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In Findings of the Association for Computational Linguistics: ACL 2021</div>
+          <div class="col-12 col-md-9">In ArXiv</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -942,9 +954,9 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/position-paper/">Position Paper</a>
+  <a class="badge badge-light" href="/tag/multimodal/">Multimodal</a>
   
-  <a class="badge badge-light" href="/tag/issues/">Issues</a>
+  <a class="badge badge-light" href="/tag/vision/">Vision</a>
   
   <a class="badge badge-light" href="/tag/nlp/">NLP</a>
   
@@ -963,7 +975,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://federicobianchi.io/publication/gap-between-understanding-adoption/&amp;text=On%20the%20Gap%20between%20Adoption%20and%20Understanding%20in%20NLP" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://federicobianchi.io/publication/gap-between-understanding-adoption/&amp;text=Contrastive%20Language-Image%20Pre-training%20for%20the%20Italian%20Language" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -976,7 +988,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://federicobianchi.io/publication/gap-between-understanding-adoption/&amp;t=On%20the%20Gap%20between%20Adoption%20and%20Understanding%20in%20NLP" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://federicobianchi.io/publication/gap-between-understanding-adoption/&amp;t=Contrastive%20Language-Image%20Pre-training%20for%20the%20Italian%20Language" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -989,7 +1001,7 @@
       
       
       <li>
-        <a href="mailto:?subject=On%20the%20Gap%20between%20Adoption%20and%20Understanding%20in%20NLP&amp;body=https://federicobianchi.io/publication/gap-between-understanding-adoption/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Contrastive%20Language-Image%20Pre-training%20for%20the%20Italian%20Language&amp;body=https://federicobianchi.io/publication/gap-between-understanding-adoption/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1002,7 +1014,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://federicobianchi.io/publication/gap-between-understanding-adoption/&amp;title=On%20the%20Gap%20between%20Adoption%20and%20Understanding%20in%20NLP" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://federicobianchi.io/publication/gap-between-understanding-adoption/&amp;title=Contrastive%20Language-Image%20Pre-training%20for%20the%20Italian%20Language" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1015,7 +1027,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=On%20the%20Gap%20between%20Adoption%20and%20Understanding%20in%20NLP%20https://federicobianchi.io/publication/gap-between-understanding-adoption/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Contrastive%20Language-Image%20Pre-training%20for%20the%20Italian%20Language%20https://federicobianchi.io/publication/gap-between-understanding-adoption/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1028,7 +1040,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://federicobianchi.io/publication/gap-between-understanding-adoption/&amp;title=On%20the%20Gap%20between%20Adoption%20and%20Understanding%20in%20NLP" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://federicobianchi.io/publication/gap-between-understanding-adoption/&amp;title=Contrastive%20Language-Image%20Pre-training%20for%20the%20Italian%20Language" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1047,6 +1059,30 @@
 
 
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 

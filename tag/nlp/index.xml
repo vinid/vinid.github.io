@@ -5,7 +5,7 @@
     <link>https://federicobianchi.io/tag/nlp/</link>
       <atom:link href="https://federicobianchi.io/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
     <description>NLP</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 22 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
       <title>NLP</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>On the Gap between Adoption and Understanding in NLP</title>
+      <title>Contrastive Language-Image Pre-training for the Italian Language</title>
       <link>https://federicobianchi.io/publication/gap-between-understanding-adoption/</link>
-      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://federicobianchi.io/publication/gap-between-understanding-adoption/</guid>
       <description></description>
     </item>
