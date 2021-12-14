@@ -5,12 +5,20 @@
     <link>https://federicobianchi.io/</link>
       <atom:link href="https://federicobianchi.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Federico Bianchi</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 22 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 07 Oct 2021 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
       <title>Federico Bianchi</title>
       <link>https://federicobianchi.io/</link>
     </image>
+    
+    <item>
+      <title>Talk: How to Train Your CLIP</title>
+      <link>https://federicobianchi.io/talk/talk-how-to-train-your-clip/</link>
+      <pubDate>Thu, 07 Oct 2021 13:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/talk/talk-how-to-train-your-clip/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Contrastive Language-Image Pre-training for the Italian Language</title>
