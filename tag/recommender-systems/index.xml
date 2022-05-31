@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recommender Systems | Federico Bianchi</title>
+    <link>https://federicobianchi.io/tag/recommender-systems/</link>
+      <atom:link href="https://federicobianchi.io/tag/recommender-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recommender Systems</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
+      <title>Recommender Systems</title>
+      <link>https://federicobianchi.io/tag/recommender-systems/</link>
+    </image>
+    
+    <item>
+      <title>Beyond NDCG: behavioral testing of recommender systems with RecList</title>
+      <link>https://federicobianchi.io/publication/reclist/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/reclist/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
