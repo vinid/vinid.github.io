@@ -5,12 +5,44 @@
     <link>https://federicobianchi.io/tag/nlp/</link>
       <atom:link href="https://federicobianchi.io/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
     <description>NLP</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Apr 2022 14:48:20 +0100</lastBuildDate>
     <image>
       <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
       <title>NLP</title>
       <link>https://federicobianchi.io/tag/nlp/</link>
     </image>
+    
+    <item>
+      <title>Language Invariant Properties in Natural Language Processing</title>
+      <link>https://federicobianchi.io/publication/language-invariant-properties-nlp/</link>
+      <pubDate>Tue, 12 Apr 2022 14:48:20 +0100</pubDate>
+      <guid>https://federicobianchi.io/publication/language-invariant-properties-nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Harmful Sentence Completion in Language Models for LGBTQIA&#43; Individuals</title>
+      <link>https://federicobianchi.io/publication/honest-hurtful-language-model-lgbtqia&#43;/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/honest-hurtful-language-model-lgbtqia&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pipelines for Social Bias Testing of Large Language Models</title>
+      <link>https://federicobianchi.io/publication/pipelines-social-bias-testing-language-models/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/pipelines-social-bias-testing-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XLM-EMO: Multilingual Emotion Prediction in Social Media Text</title>
+      <link>https://federicobianchi.io/publication/xlmemo-multilingual-emotion-prediction/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/xlmemo-multilingual-emotion-prediction/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Beyond NDCG: behavioral testing of recommender systems with RecList</title>

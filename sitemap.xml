@@ -3,7 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://federicobianchi.io/publication-type/1/</loc>
-    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-12T14:48:20+01:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/</loc>
+    <lastmod>2022-04-12T14:48:20+01:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/language-invariant-properties/</loc>
+    <lastmod>2022-04-12T14:48:20+01:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication/language-invariant-properties-nlp/</loc>
+    <lastmod>2022-04-12T14:48:20+01:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/meaning/</loc>
+    <lastmod>2022-04-12T14:48:20+01:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/nlp/</loc>
+    <lastmod>2022-04-12T14:48:20+01:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication_types/</loc>
+    <lastmod>2022-04-12T14:48:20+01:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication/</loc>
+    <lastmod>2022-04-12T14:48:20+01:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tags/</loc>
+    <lastmod>2022-04-12T14:48:20+01:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/bert/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/dataset/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/emotion-detection/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/hate-speech/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/italian/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication/honest-hurtful-language-model-lgbtqia&#43;/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/multilingual/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/pipelines/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication/pipelines-social-bias-testing-language-models/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/sentiment-analysis/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication/xlmemo-multilingual-emotion-prediction/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/reclist/</loc>
     <lastmod>2022-03-02T00:00:00+00:00</lastmod>
@@ -14,22 +71,7 @@
     <loc>https://federicobianchi.io/tag/embeddings/</loc>
     <lastmod>2022-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicobianchi.io/</loc>
-    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/tag/nlp/</loc>
-    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/publication_types/</loc>
-    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/publication/</loc>
-    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://federicobianchi.io/tag/recommender-systems/</loc>
-    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/tags/</loc>
     <lastmod>2022-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/event/</loc>
@@ -80,9 +122,6 @@
     <loc>https://federicobianchi.io/tag/linguistics/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicobianchi.io/tag/meaning/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://federicobianchi.io/tag/semantic-change/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -94,9 +133,6 @@
   </url><url>
     <loc>https://federicobianchi.io/talk/talk-fantastic-embeddings-and-how-to-align-them/</loc>
     <lastmod>2021-03-23T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/tag/bert/</loc>
-    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/language-in-a-search-box/</loc>
     <lastmod>2021-03-02T00:00:00+00:00</lastmod>
@@ -117,9 +153,6 @@
     <lastmod>2021-02-17T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/feel-it/</loc>
-    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/tag/sentiment-analysis/</loc>
     <lastmod>2021-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/towards-neuro-symbolic/</loc>

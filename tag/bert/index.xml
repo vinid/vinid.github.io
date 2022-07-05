@@ -5,12 +5,36 @@
     <link>https://federicobianchi.io/tag/bert/</link>
       <atom:link href="https://federicobianchi.io/tag/bert/index.xml" rel="self" type="application/rss+xml" />
     <description>BERT</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
       <title>BERT</title>
       <link>https://federicobianchi.io/tag/bert/</link>
     </image>
+    
+    <item>
+      <title>Measuring Harmful Sentence Completion in Language Models for LGBTQIA&#43; Individuals</title>
+      <link>https://federicobianchi.io/publication/honest-hurtful-language-model-lgbtqia&#43;/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/honest-hurtful-language-model-lgbtqia&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pipelines for Social Bias Testing of Large Language Models</title>
+      <link>https://federicobianchi.io/publication/pipelines-social-bias-testing-language-models/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/pipelines-social-bias-testing-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XLM-EMO: Multilingual Emotion Prediction in Social Media Text</title>
+      <link>https://federicobianchi.io/publication/xlmemo-multilingual-emotion-prediction/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/xlmemo-multilingual-emotion-prediction/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Language in a (Search) Box: Grounding Language Learning in Real-World Human-Machine Interaction</title>
