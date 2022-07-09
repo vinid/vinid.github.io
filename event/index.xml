@@ -5,12 +5,20 @@
     <link>https://federicobianchi.io/event/</link>
       <atom:link href="https://federicobianchi.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 07 Oct 2021 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Jul 2022 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://federicobianchi.io/event/</link>
     </image>
+    
+    <item>
+      <title>Talk: Fantastic CLIPs and How To Tune Them</title>
+      <link>https://federicobianchi.io/talk/talk-fantastic-clips-and-how-to-tune-them/</link>
+      <pubDate>Tue, 05 Jul 2022 13:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/talk/talk-fantastic-clips-and-how-to-tune-them/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Talk: How to Train Your CLIP</title>
