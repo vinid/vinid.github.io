@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI | Federico Bianchi</title>
+    <link>https://federicobianchi.io/tag/ai/</link>
+      <atom:link href="https://federicobianchi.io/tag/ai/index.xml" rel="self" type="application/rss+xml" />
+    <description>AI</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
+      <title>AI</title>
+      <link>https://federicobianchi.io/tag/ai/</link>
+    </image>
+    
+    <item>
+      <title>A Rounded Evaluation of Recommender Systems</title>
+      <link>https://federicobianchi.io/post/rounded-evaluation-recommender-systems/</link>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/post/rounded-evaluation-recommender-systems/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Recommender Systems are probably one of the most popular machine learning systems in production; moreover, recommenders are probably the machine learning products that have the closest contact with the actual users, since they are generally used in an interactive fashion.&lt;/p&gt;
+&lt;p&gt;This is why testing is fundamental in Recommender Systems. Failing to detect low performance in some cases can bring reputational damage to a company.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/p/b9fa101ef79a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

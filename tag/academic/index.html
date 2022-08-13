@@ -282,7 +282,7 @@
   }
 
   gtag('js', new Date());
-  gtag('config', 'G-PZT28FHGXB', {});
+  gtag('config', 'G-PZT28FHGXB', { 'anonymize_ip': true });
   gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
 
   
@@ -337,7 +337,7 @@
     <meta property="twitter:image" content="https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2020-12-13T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2022-08-11T00:00:00&#43;00:00" />
     
   
 
@@ -346,6 +346,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#4caf50",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#4caf50"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "/privacy/"
+      }
+    })});
+  </script>
+
 
   
 
@@ -560,6 +590,43 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/#philosophy"><span>Research Philosophy</span></a>
         </li>
 
@@ -714,10 +781,10 @@
     
     
     <div>
-      <h2><a href="/post/getting-started/" >Welcome to Wowchemy, the website builder for Hugo</a></h2>
+      <h2><a href="/post/rounded-evaluation-recommender-systems/" >A Rounded Evaluation of Recommender Systems</a></h2>
       <div class="article-style">
         
-          Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+          This article describes a novel data and code challenge that is currently running: EvalRS. We decided to organize EvalRS with friends from Coveo, Microsoft, and NVIDIA, to better understand evaluation in Recommender Systems.
         
       </div>
     </div>
@@ -736,6 +803,13 @@
 
   
 
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+  </p>
   
 
   <p class="powered-by">

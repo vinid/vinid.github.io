@@ -282,7 +282,7 @@
   }
 
   gtag('js', new Date());
-  gtag('config', 'G-PZT28FHGXB', {});
+  gtag('config', 'G-PZT28FHGXB', { 'anonymize_ip': true });
   gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
 
   
@@ -342,6 +342,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#4caf50",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#4caf50"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "/privacy/"
+      }
+    })});
+  </script>
+
 
   
 
@@ -556,6 +586,43 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/#philosophy"><span>Research Philosophy</span></a>
         </li>
 
@@ -692,6 +759,8 @@
   <h2>Latest</h2>
   <ul>
     
+      <li><a href="/post/rounded-evaluation-recommender-systems/">A Rounded Evaluation of Recommender Systems</a></li>
+    
       <li><a href="/talk/talk-twitter-demographer/">Talk: Twitter-Demographer</a></li>
     
       <li><a href="/talk/talk-fantastic-clips-and-how-to-tune-them/">Talk: Fantastic CLIPs and How To Tune Them</a></li>
@@ -710,8 +779,6 @@
     
       <li><a href="/talk/talk-natural-language-processing-to-better-understand-language-and-vice-versa/">Talk: Natural Language Processing to Better Understand Language – and Vice Versa</a></li>
     
-      <li><a href="/talk/talk-contrastive-language-image-pre-training-for-the-italian-language/">Talk: Contrastive Language-Image Pre-training for the Italian Language</a></li>
-    
   </ul>
   
 
@@ -726,6 +793,13 @@
 
   
 
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+  </p>
   
 
   <p class="powered-by">
