@@ -5,7 +5,7 @@
     <link>https://federicobianchi.io/category/nlp/</link>
       <atom:link href="https://federicobianchi.io/category/nlp/index.xml" rel="self" type="application/rss+xml" />
     <description>NLP</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
       <title>NLP</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Contextualized Topic Modeling with Python (EACL2021)</title>
       <link>https://federicobianchi.io/post/ctm-topic-model/</link>
-      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://federicobianchi.io/post/ctm-topic-model/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Suppose we have a small set of documents in Portuguese that is not large enough to reliably run standard topic modeling algorithms. However, we have enough English documents in the same domain. With our cross-lingual zero-shot topic model (ZeroShotTM), we can first learn topics on English and then predict topics for Portuguese documents (as long as we use pre-trained representations that account for both English and Portuguese).&lt;/p&gt;

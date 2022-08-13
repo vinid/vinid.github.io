@@ -14,16 +14,7 @@
     <loc>https://federicobianchi.io/categories/</loc>
     <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicobianchi.io/post/ctm-topic-model/</loc>
-    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://federicobianchi.io/</loc>
-    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/category/language-models/</loc>
-    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/category/nlp/</loc>
     <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/post/</loc>
@@ -33,9 +24,6 @@
     <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/tags/</loc>
-    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/category/topic-models/</loc>
     <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/tag/demographics/</loc>
@@ -142,6 +130,18 @@
   </url><url>
     <loc>https://federicobianchi.io/tag/vision/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/post/ctm-topic-model/</loc>
+    <lastmod>2021-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/category/language-models/</loc>
+    <lastmod>2021-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/category/nlp/</loc>
+    <lastmod>2021-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/category/topic-models/</loc>
+    <lastmod>2021-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/tag/coherence/</loc>
     <lastmod>2021-08-06T00:00:00+00:00</lastmod>

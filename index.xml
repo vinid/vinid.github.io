@@ -25,17 +25,6 @@
     </item>
     
     <item>
-      <title>Contextualized Topic Modeling with Python (EACL2021)</title>
-      <link>https://federicobianchi.io/post/ctm-topic-model/</link>
-      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://federicobianchi.io/post/ctm-topic-model/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Suppose we have a small set of documents in Portuguese that is not large enough to reliably run standard topic modeling algorithms. However, we have enough English documents in the same domain. With our cross-lingual zero-shot topic model (ZeroShotTM), we can first learn topics on English and then predict topics for Portuguese documents (as long as we use pre-trained representations that account for both English and Portuguese).&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/contextualized-topic-modeling-with-python-eacl2021-eacf6dfa576&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Talk: Twitter-Demographer</title>
       <link>https://federicobianchi.io/talk/talk-twitter-demographer/</link>
       <pubDate>Tue, 19 Jul 2022 13:00:00 +0000</pubDate>
@@ -121,6 +110,17 @@
       <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://federicobianchi.io/publication/gap-between-understanding-adoption/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Contextualized Topic Modeling with Python (EACL2021)</title>
+      <link>https://federicobianchi.io/post/ctm-topic-model/</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/post/ctm-topic-model/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Suppose we have a small set of documents in Portuguese that is not large enough to reliably run standard topic modeling algorithms. However, we have enough English documents in the same domain. With our cross-lingual zero-shot topic model (ZeroShotTM), we can first learn topics on English and then predict topics for Portuguese documents (as long as we use pre-trained representations that account for both English and Portuguese).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/contextualized-topic-modeling-with-python-eacl2021-eacf6dfa576&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
