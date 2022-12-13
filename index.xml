@@ -5,12 +5,20 @@
     <link>https://federicobianchi.io/</link>
       <atom:link href="https://federicobianchi.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Federico Bianchi</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Sep 2022 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
       <title>Federico Bianchi</title>
       <link>https://federicobianchi.io/</link>
     </image>
+    
+    <item>
+      <title>Easily Accessible Text-to-Image Generation Amplifies Demographic Stereotypes at Large Scale</title>
+      <link>https://federicobianchi.io/publication/text-image-generation-bias/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/publication/text-image-generation-bias/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Talk: Domain-specific multi-modal ML with CLIP</title>
