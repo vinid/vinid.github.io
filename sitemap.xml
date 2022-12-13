@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://federicobianchi.io/</loc>
+    <lastmod>2022-09-29T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/event/</loc>
+    <lastmod>2022-09-29T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/talk/talk-domain-specific-multi-modal-ml-with-clip/</loc>
+    <lastmod>2022-09-29T13:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://federicobianchi.io/post/rounded-evaluation-recommender-systems/</loc>
     <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,9 +21,6 @@
     <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/categories/</loc>
-    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/</loc>
     <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/post/</loc>
@@ -30,9 +36,6 @@
     <lastmod>2022-07-19T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/tag/language-models/</loc>
-    <lastmod>2022-07-19T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/event/</loc>
     <lastmod>2022-07-19T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/talk/talk-twitter-demographer/</loc>
