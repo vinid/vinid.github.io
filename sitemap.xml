@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://federicobianchi.io/tag/academic/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/ai/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/categories/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/post/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tags/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/post/fashion-clip/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/category/vision-and-language-models/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://federicobianchi.io/publication-type/3/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,9 +41,6 @@
     <loc>https://federicobianchi.io/publication/text-image-generation-bias/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicobianchi.io/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://federicobianchi.io/tag/nlp/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,9 +53,6 @@
     <loc>https://federicobianchi.io/tag/stablediffusion/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicobianchi.io/tags/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://federicobianchi.io/event/</loc>
     <lastmod>2022-09-29T13:00:00+00:00</lastmod>
   </url><url>
@@ -42,18 +60,6 @@
     <lastmod>2022-09-29T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/post/rounded-evaluation-recommender-systems/</loc>
-    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/tag/academic/</loc>
-    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/tag/ai/</loc>
-    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/categories/</loc>
-    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/post/</loc>
     <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/category/recommender-systems/</loc>

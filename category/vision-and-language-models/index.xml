@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vision and Language Models | Federico Bianchi</title>
+    <link>https://federicobianchi.io/category/vision-and-language-models/</link>
+      <atom:link href="https://federicobianchi.io/category/vision-and-language-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vision and Language Models</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_512x512_fill_lanczos_center_2.png</url>
+      <title>Vision and Language Models</title>
+      <link>https://federicobianchi.io/category/vision-and-language-models/</link>
+    </image>
+    
+    <item>
+      <title>Teaching CLIP Some Fashion</title>
+      <link>https://federicobianchi.io/post/fashion-clip/</link>
+      <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://federicobianchi.io/post/fashion-clip/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This is a short blog post describing FashionCLIP. If you are a data scientist you probably have to deal with both images and text. However, your data will be very specific to your domain, and standard models might not work well. This post explains how domain-specific vision and language models can be used in a domain-specific setting and why using them can be a promising way to create a search engine or a (zero-shot) classifier.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/teaching-clip-some-fashion-3005ac3fdcc3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

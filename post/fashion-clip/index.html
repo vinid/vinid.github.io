@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="This article describes a novel data and code challenge that is currently running: EvalRS. We decided to organize EvalRS with friends from Coveo, Microsoft, and NVIDIA, to better understand evaluation in Recommender Systems." />
+  <meta name="description" content="This article describes how to implement CLIP to support a domain-specific fashion use case" />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://federicobianchi.io/post/rounded-evaluation-recommender-systems/" />
+  <link rel="alternate" hreflang="en-us" href="https://federicobianchi.io/post/fashion-clip/" />
 
   
 
@@ -312,7 +312,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="https://federicobianchi.io/post/rounded-evaluation-recommender-systems/" />
+  <link rel="canonical" href="https://federicobianchi.io/post/fashion-clip/" />
 
   
   
@@ -328,18 +328,18 @@
   <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Federico Bianchi" />
-  <meta property="og:url" content="https://federicobianchi.io/post/rounded-evaluation-recommender-systems/" />
-  <meta property="og:title" content="A Rounded Evaluation of Recommender Systems | Federico Bianchi" />
-  <meta property="og:description" content="This article describes a novel data and code challenge that is currently running: EvalRS. We decided to organize EvalRS with friends from Coveo, Microsoft, and NVIDIA, to better understand evaluation in Recommender Systems." /><meta property="og:image" content="https://federicobianchi.io/post/rounded-evaluation-recommender-systems/featured.jpg" />
-    <meta property="twitter:image" content="https://federicobianchi.io/post/rounded-evaluation-recommender-systems/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://federicobianchi.io/post/fashion-clip/" />
+  <meta property="og:title" content="Teaching CLIP Some Fashion | Federico Bianchi" />
+  <meta property="og:description" content="This article describes how to implement CLIP to support a domain-specific fashion use case" /><meta property="og:image" content="https://federicobianchi.io/post/fashion-clip/featured.png" />
+    <meta property="twitter:image" content="https://federicobianchi.io/post/fashion-clip/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2022-08-11T00:00:00&#43;00:00"
+        content="2023-03-11T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2022-08-11T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-03-11T00:00:00&#43;00:00">
   
 
   
@@ -363,16 +363,16 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://federicobianchi.io/post/rounded-evaluation-recommender-systems/"
+    "@id": "https://federicobianchi.io/post/fashion-clip/"
   },
-  "headline": "A Rounded Evaluation of Recommender Systems",
+  "headline": "Teaching CLIP Some Fashion",
   
   "image": [
-    "https://federicobianchi.io/post/rounded-evaluation-recommender-systems/featured.jpg"
+    "https://federicobianchi.io/post/fashion-clip/featured.png"
   ],
   
-  "datePublished": "2022-08-11T00:00:00Z",
-  "dateModified": "2022-08-11T00:00:00Z",
+  "datePublished": "2023-03-11T00:00:00Z",
+  "dateModified": "2023-03-11T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -387,7 +387,7 @@
       "url": "https://federicobianchi.io/media/icon_hu5190940fbab78401816a5e8bbbbd704e_5058_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "This article describes a novel data and code challenge that is currently running: EvalRS. We decided to organize EvalRS with friends from Coveo, Microsoft, and NVIDIA, to better understand evaluation in Recommender Systems."
+  "description": "This article describes how to implement CLIP to support a domain-specific fashion use case"
 }
 </script>
 
@@ -433,11 +433,11 @@
 
 
 
-  <title>A Rounded Evaluation of Recommender Systems | Federico Bianchi</title>
+  <title>Teaching CLIP Some Fashion | Federico Bianchi</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="99aab00236fa462fc107e781a6b0fdb5" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="47c66416ead5acdf40f95576ff9039cc" >
 
   
   
@@ -822,10 +822,10 @@
 
 
 <div class="article-container pt-3">
-  <h1>A Rounded Evaluation of Recommender Systems</h1>
+  <h1>Teaching CLIP Some Fashion</h1>
 
   
-  <p class="page-subtitle">EvalRS: Evaluating Recommender Systems on Many Tests</p>
+  <p class="page-subtitle">Teaching CLIP Some Fashion</p>
   
 
   
@@ -852,7 +852,7 @@
     
       
     
-    Aug 11, 2022
+    Mar 11, 2023
   </span>
   
 
@@ -876,7 +876,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/recommender-systems/">Recommender Systems</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/vision-and-language-models/">Vision and Language Models</a></span>
   
 
 </div>
@@ -931,7 +931,7 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://medium.com/p/b9fa101ef79a" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header" href="https://towardsdatascience.com/teaching-clip-some-fashion-3005ac3fdcc3" target="_blank" rel="noopener">
     
     Read on Medium
   </a>
@@ -943,10 +943,10 @@
 </div>
 
 
-<div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 1200px; max-height: 800px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
   <div style="position: relative">
-    <img src="/post/rounded-evaluation-recommender-systems/featured_huddfa81f7ad0a6bb04e9e90a22a5e6e50_3386183_1200x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/H4fYXZ1hyco"><strong>Unsplash</strong></a></span>
+    <img src="/post/fashion-clip/featured_hufd4afd8fca5ae4cc4d69bee25d531031_631738_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/hGV2TfOh0ns"><strong>Unsplash</strong></a></span>
   </div>
 </div>
 
@@ -956,9 +956,8 @@
 
     <div class="article-style">
       <h2 id="overview">Overview</h2>
-<p>Recommender Systems are probably one of the most popular machine learning systems in production; moreover, recommenders are probably the machine learning products that have the closest contact with the actual users, since they are generally used in an interactive fashion.</p>
-<p>This is why testing is fundamental in Recommender Systems. Failing to detect low performance in some cases can bring reputational damage to a company.</p>
-<p><a href="https://medium.com/p/b9fa101ef79a" target="_blank" rel="noopener">Read More</a></p>
+<p>This is a short blog post describing FashionCLIP. If you are a data scientist you probably have to deal with both images and text. However, your data will be very specific to your domain, and standard models might not work well. This post explains how domain-specific vision and language models can be used in a domain-specific setting and why using them can be a promising way to create a search engine or a (zero-shot) classifier.</p>
+<p><a href="https://towardsdatascience.com/teaching-clip-some-fashion-3005ac3fdcc3" target="_blank" rel="noopener">Read More</a></p>
 
     </div>
 
@@ -990,7 +989,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://federicobianchi.io/post/rounded-evaluation-recommender-systems/&amp;text=A%20Rounded%20Evaluation%20of%20Recommender%20Systems" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://federicobianchi.io/post/fashion-clip/&amp;text=Teaching%20CLIP%20Some%20Fashion" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1003,7 +1002,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://federicobianchi.io/post/rounded-evaluation-recommender-systems/&amp;t=A%20Rounded%20Evaluation%20of%20Recommender%20Systems" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://federicobianchi.io/post/fashion-clip/&amp;t=Teaching%20CLIP%20Some%20Fashion" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1016,7 +1015,7 @@
       
       
       <li>
-        <a href="mailto:?subject=A%20Rounded%20Evaluation%20of%20Recommender%20Systems&amp;body=https://federicobianchi.io/post/rounded-evaluation-recommender-systems/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Teaching%20CLIP%20Some%20Fashion&amp;body=https://federicobianchi.io/post/fashion-clip/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1029,7 +1028,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://federicobianchi.io/post/rounded-evaluation-recommender-systems/&amp;title=A%20Rounded%20Evaluation%20of%20Recommender%20Systems" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://federicobianchi.io/post/fashion-clip/&amp;title=Teaching%20CLIP%20Some%20Fashion" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1042,7 +1041,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=A%20Rounded%20Evaluation%20of%20Recommender%20Systems%20https://federicobianchi.io/post/rounded-evaluation-recommender-systems/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Teaching%20CLIP%20Some%20Fashion%20https://federicobianchi.io/post/fashion-clip/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1055,7 +1054,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://federicobianchi.io/post/rounded-evaluation-recommender-systems/&amp;title=A%20Rounded%20Evaluation%20of%20Recommender%20Systems" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://federicobianchi.io/post/fashion-clip/&amp;title=Teaching%20CLIP%20Some%20Fashion" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1101,7 +1100,7 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/post/fashion-clip/">Teaching CLIP Some Fashion</a></li>
+      <li><a href="/post/rounded-evaluation-recommender-systems/">A Rounded Evaluation of Recommender Systems</a></li>
       
       <li><a href="/post/ctm-topic-model/">Contextualized Topic Modeling with Python (EACL2021)</a></li>
       
