@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://federicobianchi.io/publication-type/1/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/computer-vision/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/large-language-models/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/nlp/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication_types/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tags/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/tag/vision-language-modeling/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication/vision-language-bow/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://federicobianchi.io/tag/academic/</loc>
     <lastmod>2023-03-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,13 +41,7 @@
     <loc>https://federicobianchi.io/categories/</loc>
     <lastmod>2023-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicobianchi.io/</loc>
-    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://federicobianchi.io/post/</loc>
-    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/tags/</loc>
     <lastmod>2023-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/post/fashion-clip/</loc>
@@ -26,28 +50,13 @@
     <loc>https://federicobianchi.io/category/vision-and-language-models/</loc>
     <lastmod>2023-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicobianchi.io/publication-type/3/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://federicobianchi.io/tag/bias/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/tag/computer-vision/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/tag/dalle/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/text-image-generation-bias/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/tag/nlp/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/publication_types/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/publication/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/tag/stablediffusion/</loc>
@@ -79,9 +88,6 @@
   </url><url>
     <loc>https://federicobianchi.io/talk/talk-fantastic-clips-and-how-to-tune-them/</loc>
     <lastmod>2022-07-05T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://federicobianchi.io/publication-type/1/</loc>
-    <lastmod>2022-04-12T14:48:20+01:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/tag/language-invariant-properties/</loc>
     <lastmod>2022-04-12T14:48:20+01:00</lastmod>
@@ -145,6 +151,9 @@
   </url><url>
     <loc>https://federicobianchi.io/talk/talk-contrastive-language-image-pre-training-for-the-italian-language/</loc>
     <lastmod>2021-09-16T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://federicobianchi.io/publication-type/3/</loc>
+    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://federicobianchi.io/publication/gap-between-understanding-adoption/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
