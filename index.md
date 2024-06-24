@@ -7,7 +7,7 @@ permalink: /
 I am Fede, an AI Engineer at Xyla. Working on [Open Evidence](https://www.openevidence.com/){:target="_blank"}. 
 
 <div style="text-align: center;">
-  <img src="../assets/img/profile.jpeg" alt="profile" style="border-radius: 50%; width: 150px; height: 150px;">
+  <img src="assets/img/profile.jpeg" alt="profile" style="border-radius: 50%; width: 150px; height: 150px;">
 </div>
 
 I am a former Postdoctoral Researcher at **Stanford NLP**, collaborating with **[Dan Jurafsky](https://web.stanford.edu/~jurafsky/){:target="_blank"}** and **[James Zou](https://www.james-zou.com/){:target="_blank"}**.
