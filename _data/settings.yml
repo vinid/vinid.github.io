@@ -7,7 +7,7 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Home',    url: ''}
+- {name: 'Home',    url: 'federicobianchi.io'}
 - {name: 'About',   url: 'about.html'}
 - {name: 'Contact', url: 'contact.html'}
 
