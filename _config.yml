@@ -18,7 +18,7 @@ markdown:            kramdown
 highlighter:         rouge
 permalink:           pretty
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
-baseurl:             federicobianchi.io
+baseurl:             "/"
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Federico Bianchi'
