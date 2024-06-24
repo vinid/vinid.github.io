@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hi!
-permalink: /
+permalink: /inde
 ---
 
 I am Fede, an AI Engineer at Xyla. Working on [Open Evidence](https://www.openevidence.com/){:target="_blank"}. 
