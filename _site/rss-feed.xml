@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Federico Bianchi</title>
+		<description>AI Engineer, ML Researcher</description>
+		<link></link>
+		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>TextGrad: AutoGrad for Text</title>
+				
+					<dc:creator>Federico Bianchi</dc:creator>
+				
+				
+					<description>&lt;p&gt;Our TextGrad is out. We propose and design a system for automatic differentiation via text called TextGrad. TextGrad offers a PyTorch-like API designed to be fairly intuitive. This means that with few lines of code, you can automatically transform a “reason step by step” prompt you use to classify your data, in a more sophisticated one that is tailored to your specific application.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 23 Jun 2024 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/textgrad</link>
+				<guid isPermaLink="true">http://localhost:4000/textgrad</guid>
+			</item>
+		
+	</channel>
+</rss>
