@@ -16,11 +16,10 @@ paginate:            5
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
-permalink:           pretty
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
-website:             https://federicobianchi.io
-baseurl:             ""
 url:                "https://federicobianchi.io"
+baseurl:             ""
+permalink:           pretty
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Federico Bianchi'

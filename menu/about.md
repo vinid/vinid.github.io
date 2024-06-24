@@ -1,7 +1,7 @@
 ---
 layout: page
 title: More About Me
-permalink: /about
+permalink: /about/  
 ---
 
 Here is a brief overview of my work and interests. 
