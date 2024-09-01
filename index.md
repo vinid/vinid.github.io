@@ -4,7 +4,7 @@ title: Hi!
 permalink: /
 ---
 
-I am Fede, an AI Engineer at Xyla. Working on [Open Evidence](https://www.openevidence.com/){:target="_blank"}. 
+I am Fede, an AI Engineer at Xyla. Working on [OpenEvidence](https://www.openevidence.com/){:target="_blank"}. 
 
 <div style="text-align: center;">
   <img src="assets/img/profile.jpeg" alt="profile" style="border-radius: 50%; width: 150px; height: 150px;">
