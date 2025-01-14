@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Federico Bianchi</title>
-		<description>AI Engineer, ML Researcher</description>
+		<description>AI Scientist</description>
 		<link></link>
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		

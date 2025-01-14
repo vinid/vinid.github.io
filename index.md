@@ -4,8 +4,7 @@ title: Hi!
 permalink: /
 ---
 
-I am Fede, a Senior ML Scientist at [TogetherAI](https://www.together.ai/){:target="_blank"}. I am working on post-training in LLMs, mainly self-improving and self-evolving AI Agents. 
-
+I am Fede, a Senior ML Scientist at [TogetherAI](https://www.together.ai/){:target="_blank"}. I am working on post-training in LLMs, mainly self-improving and self-evolving AI Agents.
 
 <div style="text-align: center;">
   <img src="assets/img/profile.jpeg" alt="profile" style="border-radius: 50%; width: 150px; height: 150px;">
