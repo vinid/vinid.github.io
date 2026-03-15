@@ -1,27 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About | Federico Bianchi</title>
-  <meta name="description" content="AI Scientist">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  <nav>
-  <div class="container">
-    <a href="/" >home</a>
-    <a href="/about/" class="active">about</a>
-    <a href="/contact/" >contact</a>
-  </div>
-</nav>
+---
+layout: default
+title: About
+permalink: /about/
+---
 
-  <main>
-    <div class="container">
-      <h1 data-animate="1">About</h1>
+<h1 data-animate="1">About</h1>
 
 <p data-animate="2">
   I co-invented <a href="https://www.nature.com/articles/s41586-025-08661-4">TextGrad</a> (Nature 2025)
@@ -51,7 +34,7 @@
   <a href="https://www.aaai.org/ojs/index.php/AAAI/article/view/4594/4472">AAAI</a>,
   <a href="https://www.aclweb.org/anthology/2020.acl-main.154.pdf">ACL</a>, and
   <a href="https://www.nature.com/articles/s41591-023-02504-3">Nature Medicine</a>.
-  <a href="https://scholar.google.com/citations?user=1okGjb8AAAAJ&amp;hl=it">Full list on Google Scholar</a>.
+  <a href="https://scholar.google.com/citations?user=1okGjb8AAAAJ&hl=it">Full list on Google Scholar</a>.
 </p>
 
 <p data-animate="5">
@@ -64,8 +47,8 @@
 <h2 data-animate="6">Talks</h2>
 
 <p data-animate="7">
-  2026 — Lyft · Harvard · NEC Labs · Instituto de Telecomunicações, Lisbon<br />
-  2025 — Nvidia · Amazon · Stanford · FBK<br />
+  2026 — Lyft · Harvard · NEC Labs · Instituto de Telecomunicações, Lisbon<br>
+  2025 — Nvidia · Amazon · Stanford · FBK<br>
   Recorded — <a href="https://www.youtube.com/watch?v=uqRSc-KSA1Y">Pinecone</a> ·
   <a href="https://www.youtube.com/watch?v=ql4TzSIdvoE">Outerbounds</a> ·
   <a href="https://www.youtube.com/watch?v=2jJLMeWU2nk">LightOn AI</a> ·
@@ -75,13 +58,3 @@
 <p data-animate="8">
   Editor for the Neuro-symbolic AI journal. Action Editor for ACL Rolling Review.
 </p>
-
-    </div>
-  </main>
-  <footer>
-  <div class="container"></div>
-</footer>
-
-  <script>document.querySelectorAll('a[href^="http"]').forEach(a=>{a.target='_blank';a.rel='noopener'})</script>
-</body>
-</html>

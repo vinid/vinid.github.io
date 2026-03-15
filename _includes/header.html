@@ -1,7 +1,7 @@
-<header class="header">
-  <h3 class="header-title">
-    <a href="{{ site.github.url }}/">{{ site.title }}</a>
-    <small class="header-subtitle">{{ site.description }}</small>
-    {% include menu.html %}
-  </h3>
-</header>
+<nav>
+  <div class="container">
+    <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>home</a>
+    <a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>about</a>
+    <a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}class="active"{% endif %}>contact</a>
+  </div>
+</nav>
