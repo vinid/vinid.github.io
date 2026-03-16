@@ -99,6 +99,24 @@ p {
   font-size: 1rem;
 }
 
+.grid-item {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  padding-bottom: 1.4rem;
+}
+
+.grid-item a {
+  display: block;
+}
+
+.grid-item .desc {
+  color: var(--muted);
+  font-size: 0.85rem;
+  display: block;
+  margin-top: 0.15rem;
+  line-height: 1.5;
+}
+
 .section-list {
   list-style: none;
   padding: 0;
