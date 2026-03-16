@@ -1,12 +1,24 @@
 title: Federico Bianchi
-description: AI Scientist
+description: Senior ML Scientist at TogetherAI. Working on post-training, self-improving AI agents. Co-inventor of TextGrad (Nature 2025).
 url: "https://federicobianchi.io"
 baseurl: ""
+author: Federico Bianchi
+twitter:
+  username: federicobianchy
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 markdown: kramdown
 permalink: pretty
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - docs

@@ -1,6 +1,7 @@
 <nav>
   <div class="container">
     <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>home</a>
+    <a href="{{ '/writing/' | relative_url }}" {% if page.url contains '/writing' %}class="active"{% endif %}>writing</a>
     <a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>about</a>
     <a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}class="active"{% endif %}>contact</a>
   </div>

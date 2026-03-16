@@ -1,0 +1,32 @@
+---
+layout: default
+title: Writing
+---
+
+<h1>Writing</h1>
+
+{% assign categorized_posts = site.posts | where_exp: "post", "post.category != nil" | group_by: "category" | sort: "name" %}
+{% for category_group in categorized_posts %}
+  <h2>{{ category_group.name }}</h2>
+  <ul class="section-list">
+    {% for post in category_group.items %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="desc">{{ post.date | date: "%B %d, %Y" }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+{% assign uncategorized = site.posts | where_exp: "post", "post.category == nil" %}
+{% if uncategorized.size > 0 %}
+  <h2>Other</h2>
+  <ul class="section-list">
+    {% for post in uncategorized %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="desc">{{ post.date | date: "%B %d, %Y" }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}

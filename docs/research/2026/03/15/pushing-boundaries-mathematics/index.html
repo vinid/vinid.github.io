@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>On Pushing The Boundaries of Mathematics | Federico Bianchi</title>
+  <meta name="description" content="Senior ML Scientist at TogetherAI. Working on post-training, self-improving AI agents. Co-inventor of TextGrad (Nature 2025).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>On Pushing The Boundaries of Mathematics | Federico Bianchi</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="On Pushing The Boundaries of Mathematics" />
+<meta name="author" content="Federico Bianchi" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I was never a smart kid and I probably never will be. I hated going to school and math class was, unfortunately, part of the curriculum. I distinctly remember the painful stomach ache I used to get on test day. While the day before I was procrastinating by playing video games and, of course, not studying, the day of the test was filled with angst and anxiety waiting for the teacher to get to class and hand me the test sheet. Even just recalling some of those moments makes me feel a little uncomfortable." />
+<meta property="og:description" content="I was never a smart kid and I probably never will be. I hated going to school and math class was, unfortunately, part of the curriculum. I distinctly remember the painful stomach ache I used to get on test day. While the day before I was procrastinating by playing video games and, of course, not studying, the day of the test was filled with angst and anxiety waiting for the teacher to get to class and hand me the test sheet. Even just recalling some of those moments makes me feel a little uncomfortable." />
+<link rel="canonical" href="https://federicobianchi.io/research/2026/03/15/pushing-boundaries-mathematics/" />
+<meta property="og:url" content="https://federicobianchi.io/research/2026/03/15/pushing-boundaries-mathematics/" />
+<meta property="og:site_name" content="Federico Bianchi" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-03-15T00:00:00-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="On Pushing The Boundaries of Mathematics" />
+<meta name="twitter:site" content="@federicobianchy" />
+<meta name="twitter:creator" content="@Federico Bianchi" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Federico Bianchi"},"dateModified":"2026-03-15T00:00:00-07:00","datePublished":"2026-03-15T00:00:00-07:00","description":"I was never a smart kid and I probably never will be. I hated going to school and math class was, unfortunately, part of the curriculum. I distinctly remember the painful stomach ache I used to get on test day. While the day before I was procrastinating by playing video games and, of course, not studying, the day of the test was filled with angst and anxiety waiting for the teacher to get to class and hand me the test sheet. Even just recalling some of those moments makes me feel a little uncomfortable.","headline":"On Pushing The Boundaries of Mathematics","mainEntityOfPage":{"@type":"WebPage","@id":"https://federicobianchi.io/research/2026/03/15/pushing-boundaries-mathematics/"},"url":"https://federicobianchi.io/research/2026/03/15/pushing-boundaries-mathematics/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <nav>
+  <div class="container">
+    <a href="/" >home</a>
+    <a href="/writing/" >writing</a>
+    <a href="/about/" >about</a>
+    <a href="/contact/" >contact</a>
+  </div>
+</nav>
+
+  <main>
+    <div class="container">
+      <article>
+  <h1>On Pushing The Boundaries of Mathematics</h1>
+  <p style="color: #999; font-size: 0.9rem;">March 15, 2026</p>
+  
+  <p>I was never a smart kid and I probably never will be. I hated going to school and math class was, unfortunately, part of the curriculum. I distinctly remember the painful stomach ache I used to get on test day. While the day before I was procrastinating by playing video games and, of course, not studying, the day of the test was filled with angst and anxiety waiting for the teacher to get to class and hand me the test sheet. Even just recalling some of those moments makes me feel a little uncomfortable.</p>
+
+<p>However, it seems like destiny offered me the chance to go back to the math domain and provide my marginal contribution to its development.</p>
+
+<p>As a matter of fact, these days, I am finding myself more and more in the field of what you would call “just throw compute at the problem and it is probably going to solve itself”. Due to the well-definedness of open math problems, these are the first type of problems we tend to tackle.</p>
+
+<p>Many math problems have a very nice shape: they are easy to evaluate and there is no way you are going to clown yourself by releasing something that is incorrect. If the verifier tells you that you have a better score than past state of the art scores then you are done — you have a new result that can go on Wikipedia.<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">construction</span> <span class="o">=</span> <span class="nf">fancy_llm</span><span class="p">()</span>
+
+<span class="nf">verify</span><span class="p">(</span><span class="n">construction</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Moreover, some of these problems ask you to look for new lower or upper bounds, so you can train a model and hill-climb on the verification itself (this is what we have done in TTT-Discover). Researchers really like these problems for these exact features.</p>
+
+<p>We recently discovered a few bounds for new mathematical problems and it was quite a huge hit.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> TTT-Discover was our first attempt at test time training for scientific discovery.</p>
+
+<p>I do not understand these problems — I don’t have the mathematical knowledge required. To be clear, I probably <em>could</em> understand them if I spent a few hours working on them, but <strong>I don’t need to</strong>. AI allows me to push the boundaries of these problems without knowing the structure of the problem itself.</p>
+
+<p>Even more recently, we found a new bound for one of the Erdős’ problems. The new upper bound was obtained by letting a few agents chat on social media and submit solutions to problems.</p>
+
+<p>I do believe this is both good and bad. It’s good because I can help science going forward, it’s bad because, technically, I don’t know what I am doing. While these problems are, at the best of my knowledge, pretty harmless, the fact that I don’t need to understand what I am working on to push the boundaries is kind of problematic.</p>
+
+<h2 id="erdős-minimum-overlap-problem">Erdős’ Minimum Overlap Problem</h2>
+
+<p>Here is the definition of the problem, as stated in online resources.</p>
+
+<p>The problem, posed by Paul Erdős in 1955, asks: if you partition the numbers \(1, 2, \ldots, 2n\) into two sets \(A\) and \(B\) of equal size, how much must they overlap when shifted? More formally, how large must \(\max_k \vert A \cap (B + k) \vert\) be?</p>
+
+<p>This translates into finding a constant \(C\) that bounds the overlap. The current known bounds are:</p>
+
+\[0.379005 \leq C \leq 0.380871\]
+
+<p>The lower bound comes from convex programming,<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup> and we just pushed the upper bound lower using AI-driven sequential linear programming.</p>
+
+<p align="center">
+  <img src="/assets/erdos-comparison.png" alt="Our new step function solution" style="max-width: 100%; margin: 2rem 0;" />
+</p>
+
+<p>The step function above achieves the new state-of-the-art upper bound of <strong>\(C \leq 0.380871\)</strong> with 600 steps, improving on the previous best of 0.380876.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:2">
+      <p><a href="https://en.wikipedia.org/wiki/Minimum_overlap_problem">Minimum Overlap Problem, Wikipedia</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:1">
+      <p>Yuksekgonul, M., Koceja, D., Li, X., Bianchi, F., McCaleb, J., Wang, X., Kautz, J., Choi, Y., Zou, J., Guestrin, C., &amp; Sun, Y. (2026). Learning to Discover at Test Time. arXiv:2601.16175. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>White, Ethan Patrick (2022). “Erdős’ minimum overlap problem”. arXiv:2201.05704 [math.CO]. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+</article>
+
+    </div>
+  </main>
+  <footer>
+  <div class="container"></div>
+</footer>
+
+  <script>document.querySelectorAll('a[href^="http"]').forEach(a=>{a.target='_blank';a.rel='noopener'})</script>
+</body>
+</html>
