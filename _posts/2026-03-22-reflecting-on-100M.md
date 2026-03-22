@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reflecting on 100M Downloads. The Making of a CLIP model"
-date: 2026-03-16
+date: 2026-03-22
 category: Fun
 ---
 
