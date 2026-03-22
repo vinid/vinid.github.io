@@ -40,6 +40,7 @@
     };
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZT28FHGXB"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -47,6 +48,7 @@
     gtag('js', new Date());
     gtag('config', 'G-PZT28FHGXB');
   </script>
+  
 </head>
 <body>
   <nav>
@@ -120,6 +122,24 @@
 </div>
 
 </article>
+
+<script>
+  document.querySelectorAll('a.footnote').forEach(function(link) {
+    var sup = link.parentNode;
+    var num = link.textContent;
+    var id = link.getAttribute('href').replace('#', '');
+    var fn = document.getElementById(id);
+    if (!fn) return;
+    var clone = fn.cloneNode(true);
+    var backref = clone.querySelector('a[href^="#fnref"]');
+    if (backref) backref.remove();
+    var sidenote = document.createElement('span');
+    sidenote.className = 'sidenote';
+    var text = clone.innerHTML.trim().replace(/^<p>|<\/p>$/g, '');
+    sidenote.innerHTML = '<sup>' + num + '</sup> ' + text;
+    sup.parentNode.insertBefore(sidenote, sup.nextSibling);
+  });
+</script>
 
     </div>
   </main>

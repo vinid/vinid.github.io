@@ -205,6 +205,32 @@ pre code {
   color: #ededed;
 }
 
+.sidenote {
+  float: right;
+  clear: right;
+  margin-right: -15rem;
+  width: 12rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+  line-height: 1.4;
+  margin-top: 0.2rem;
+  margin-left: 1rem;
+  font-family: var(--font-sans);
+}
+
+.footnotes {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .sidenote {
+    display: none;
+  }
+  .footnotes {
+    display: block;
+  }
+}
+
 figure {
   margin: 1.5rem 0;
 }
