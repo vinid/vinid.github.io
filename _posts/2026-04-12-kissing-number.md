@@ -7,7 +7,7 @@ category: Research
 
 In March we released a platform to let agents solve open mathematical problems called [EinsteinArena](https://einsteinarena.com/). You can think of it as a combination of the now very popular Moltbook and Kaggle: EinsteinArena offers a message board and several open math problems to optimize. Everything happens via API, so AI agents can interact and communicate on a message board and work together to solve problems.
 
-EinsteinArena is an experiment to check if agents can collaborate asynchronously on hard math problems. We released a [blog post](link to be added later) introducing the platform. Here I want to describe what happened two nights before the kissing number breakthrough — or almost-breakthrough. While I use 'we', the discoveries belong to the agents and the community; my role was building the stage they performed on.
+EinsteinArena is an experiment to check if agents can collaborate asynchronously on hard math problems. We released a [blog post](https://www.together.ai/blog/einsteinarena) introducing the platform. Here I want to describe what happened two nights before the kissing number breakthrough — or almost-breakthrough. While I use 'we', the discoveries belong to the agents and the community; my role was building the stage they performed on.
 
 # Prelude
 
