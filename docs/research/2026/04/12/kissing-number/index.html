@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The night we (almost) found a new bound for the kissing number problem | Federico Bianchi</title>
+  <meta name="description" content="Senior ML Scientist at TogetherAI. Working on post-training, self-improving AI agents. Co-inventor of TextGrad (Nature 2025).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css?v=2">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>The night we (almost) found a new bound for the kissing number problem | Federico Bianchi</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="The night we (almost) found a new bound for the kissing number problem" />
+<meta name="author" content="Federico Bianchi" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In March we released a platform to let agents solve open mathematical problems called EinsteinArena. You can think of it as a combination of the now very popular Moltbook and Kaggle: EinsteinArena offers a message board and several open math problems to optimize. Everything happens via API, so AI agents can interact and communicate on a message board and work together to solve problems." />
+<meta property="og:description" content="In March we released a platform to let agents solve open mathematical problems called EinsteinArena. You can think of it as a combination of the now very popular Moltbook and Kaggle: EinsteinArena offers a message board and several open math problems to optimize. Everything happens via API, so AI agents can interact and communicate on a message board and work together to solve problems." />
+<link rel="canonical" href="https://federicobianchi.io/research/2026/04/12/kissing-number/" />
+<meta property="og:url" content="https://federicobianchi.io/research/2026/04/12/kissing-number/" />
+<meta property="og:site_name" content="Federico Bianchi" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-04-12T00:00:00-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="The night we (almost) found a new bound for the kissing number problem" />
+<meta name="twitter:site" content="@federicobianchy" />
+<meta name="twitter:creator" content="@Federico Bianchi" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Federico Bianchi"},"dateModified":"2026-04-12T00:00:00-07:00","datePublished":"2026-04-12T00:00:00-07:00","description":"In March we released a platform to let agents solve open mathematical problems called EinsteinArena. You can think of it as a combination of the now very popular Moltbook and Kaggle: EinsteinArena offers a message board and several open math problems to optimize. Everything happens via API, so AI agents can interact and communicate on a message board and work together to solve problems.","headline":"The night we (almost) found a new bound for the kissing number problem","mainEntityOfPage":{"@type":"WebPage","@id":"https://federicobianchi.io/research/2026/04/12/kissing-number/"},"url":"https://federicobianchi.io/research/2026/04/12/kissing-number/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZT28FHGXB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PZT28FHGXB');
+  </script>
+  
+</head>
+<body>
+  <nav>
+  <div class="container">
+    <a href="/" >home</a>
+    <a href="/writing/" >writing</a>
+    <a href="/about/" >about</a>
+    <a href="/contact/" >contact</a>
+  </div>
+</nav>
+
+  <main>
+    <div class="container">
+      <article>
+  <h1>The night we (almost) found a new bound for the kissing number problem</h1>
+  <p style="color: #999; font-size: 0.9rem;">April 12, 2026</p>
+  
+  <p>In March we released a platform to let agents solve open mathematical problems called <a href="https://einsteinarena.com/">EinsteinArena</a>. You can think of it as a combination of the now very popular Moltbook and Kaggle: EinsteinArena offers a message board and several open math problems to optimize. Everything happens via API, so AI agents can interact and communicate on a message board and work together to solve problems.</p>
+
+<p>EinsteinArena is an experiment to check if agents can collaborate asynchronously on hard math problems. We released a <a href="link to be added later">blog post</a> introducing the platform. Here I want to describe what happened two nights before the kissing number breakthrough — or almost-breakthrough. While I use ‘we’, the discoveries belong to the agents and the community; my role was building the stage they performed on.</p>
+
+<h1 id="prelude">Prelude</h1>
+
+<p>The Kissing Number is a very famous mathematical problem. How many spheres in \(\mathbb{R}^n\) can simultaneously touch a central sphere?</p>
+
+<p>Some intuition is given by the following figure, where we can see the kissing number for \(\mathbb{R}^1\) and \(\mathbb{R}^2\).</p>
+<figure>
+  <img src="/assets/img/kissing/kissingnumbers.svg" alt="Kissing Numbers" style="max-width: 100%; margin: 2rem 0;" />
+</figure>
+
+<p><strong>Definition (Kissing Number).</strong> 
+The kissing number \(k(n)\) in \(n\)-dimensional Euclidean space \(\mathbb{R}^n\) is:
+$$
+  k(n) = \max \left\{ |S| : S \subset \mathbb{R}^n,\ 
+  \forall\, \mathbf{x} \in S,\ \|\mathbf{x}\| = 2,\ 
+  \forall\, \mathbf{x} \neq \mathbf{y} \in S,\ 
+  \|\mathbf{x} - \mathbf{y}\| \geq 2 \right\}
+$$
+</p>
+
+<p>The problem is very hard in higher dimensions, and more importantly for most dimensions we only know lower and upper bounds (we know we can fit 40 spheres in 5 dimenions, but there is no proof that that is the final number); the process has been incremental over the course of the centuries (Isaac Newton himself worked on this problem).</p>
+
+<p>In early 2025, AlphaEvolve found a groundbreaking new lower bound on dimension 11, finding a set of 593 spheres.</p>
+
+<p>How do you know if your lower bound is certifiable? You can evaluate how good a solution by looking at how much the spheres overlap. More formally, given a set of non-zero vectors in \(\mathbb{R}^{11}\), each vector \(\mathbf{x}_i\) defines a sphere center at \(\mathbf{c}_i = 2\mathbf{x}_i/\|\mathbf{x}_i\|\). The overlap loss is</p>
+
+\[\text{loss} = \sum_{i &lt; j} \max(0,\ 2 - \|\mathbf{c}_i - \mathbf{c}_j\|)\]
+
+<p>A score of exactly 0 means no two spheres overlap — a valid kissing configuration and a certifiable lower bound.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<h2 id="april-8th-10pm">April 8th, 10PM</h2>
+
+<p>I came back home on April 8th after dinner with friends to find a suspicious set of submissions for the kissing number problem on EinsteinArena. I was seeing a submission with a full set of zeros (which would have meant a new lower bound of 594, beating the previous record). There were three possible options:</p>
+
+<ol>
+  <li>A new lower bound had been found</li>
+  <li>The platform was not showing enough decimal digits</li>
+  <li>There was a bug in the code</li>
+</ol>
+
+<p>I am not new to writing bugs in my code but this was really suspicious, these verifiers are usually well-defined. I was pretty confident this was just a rendering issue and more digits would clarify. Even in that scenario, if the solution were at 1e-7 that would have been pretty huge.</p>
+
+<figure>
+  <img src="/assets/img/kissing/first.png" alt="Kissing Number Leaderboard" style="max-width: 100%; margin: 2rem 0;" />
+</figure>
+
+<p>As soon as I saw that, I sent a friendly and totally not panicked message to my colleague Yongchan.</p>
+
+<figure>
+  <img src="/assets/img/kissing/sir.png" alt="" style="max-width: 100%; margin: 2rem 0;" />
+</figure>
+
+<p>I double checked the solution and it was not yet a valid bound, but it was still a huge leap forward: 3.8e-10. I didn’t check this particular problem in the last few days but my memory was telling me that we had been stuck around 0.15 for a while, we really did not expect any kind of progress on this particular problem.</p>
+
+<p>Anyway, the platform was showing all zeros, so first PR of the night, let’s fix the visualization, then we can look at the actual submissions. Fix is simple but it was hardcoded in and it is still hardcoded there, basically transforming numbers with <code class="language-plaintext highlighter-rouge">.toExponential()</code>; I felt like I did not have time to do things the right way and check testing. In retrospect, I had all the time in the world, but the excitement took the best of me.</p>
+
+<h2 id="the-next-few-hours">The Next Few Hours</h2>
+
+<p>Next step was studying the solution. What were these agents submitting?</p>
+
+<p>While we were studying the solutions to better understand what was happening, I did some tracking of the events: at 4pm an agent, <code class="language-plaintext highlighter-rouge">alpha_omega_agents</code>, submitted a set of spheres that got 0.0119. This solution was the structural key to the final solution. After that <code class="language-plaintext highlighter-rouge">CHRONOS</code> took the lead.<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> The next few hours were a sequence of improvements from the two above and <code class="language-plaintext highlighter-rouge">JSAgent</code>. Agents kept taking the lead from each other and they eventually got to 1e-15. We were getting so close.</p>
+
+<p>While I was pestering the poor Yongchan with tons of messages, new solutions started to flow in from other agents. I cannot describe how exciting this was! Agents were surpassing each other on the leaderboard in real time at the same time as  we were checking things! It gave me the same feeling of watching those exciting football matches where the stakes are high and all can change in a few minutes.<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
+
+<p>Look at how excited I was:</p>
+<figure>
+  <img src="/assets/img/kissing/pending_submission.png" alt="" style="max-width: 100%; margin: 2rem 0;" />
+</figure>
+
+<p>We thus decided to update the rate limits, unfortunately, this required another PR. It would have been better to have this controlled by some DB flag but I never had the time to implement them.</p>
+
+<p>After that, we were just watching the progress live. I was looking at our logs on Vercel, and suddenly I saw that the submission was:</p>
+<figure>
+  <img src="/assets/img/kissing/vercel_logs.png" alt="" style="max-width: 100%; margin: 2rem 0;" />
+</figure>
+
+<p>One of these new submitted solutions, was 0. Not 1e-18. Exactly 0. For a moment, we thought it was over: one of the agents had just found the kissing number. They did it! JSAgent had just won! This was a new lower bound!</p>
+
+<p>We both downloaded the solution and found that it gave 0s, but when we used the stricter verifier it was not valid. We had a bug.</p>
+
+<p>The verifier we were using was not able to support the precision required. We were at numpy error level and the accumulation of floating point errors was being problematic.<sup id="fnref:5"><a href="#fn:5" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></p>
+
+<p>Agents were submitting, we had to fix the verifier live without breaking the platform<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">5</a></sup>. Yongchan prepared a new verifier using the decimal library in python and 80 digits of precision. Third PR of the night, we improved the verifier. We tested it, it did not work. Is there any difference between local and prod? is this a typescript thing?</p>
+
+<p>Absolutely not, I forgot to update the DB so that the new verifier is propagated to all requests. Lessons learned: never have multi-step processes to modify one part of the pipeline.<sup id="fnref:6"><a href="#fn:6" class="footnote" rel="footnote" role="doc-noteref">6</a></sup></p>
+
+<p>Not only we had to do that, but the submissions of the last 2 hours all had been evaluated with the wrong verifier. Thus, we also had to update the database for all those agents that submitted - which is always a pretty scary <code class="language-plaintext highlighter-rouge">UPDATE</code> operation to send on prod even if this is a research tool.<sup id="fnref:7"><a href="#fn:7" class="footnote" rel="footnote" role="doc-noteref">7</a></sup></p>
+
+<p>The performance of these submission had regressed to 1e-13, far from the 1e-15. We woke up our agents and tried to push it a little bit but we could not make it. We decided we would try to get it done the next day.</p>
+
+<p>I could not sleep, I had to watch a few anime episodes to get relaxed enough to sleep, my adrenaline was too high.</p>
+
+<h2 id="the-next-days">The Next Days</h2>
+
+<p>The morning of the day after we found more problems and more fires to put out. More 1 liner PRs also YOLO’ed in because my typescript knowledge is not enough to understand that.  Even with increased precision, our agents could not find a way to snap those coordinate in place. An agent got a 1e-50 submission; it was not there yet, we needed exact zero.</p>
+
+<p>Two days later, we found a new lower bound 594.</p>
+
+<p>More surprisingly, this lower bound evenutally unlocked a new lower bound of 604 with a solution living in \(\mathbb{Z}[\sqrt{2}]\) — we never expected the answer to hide in an algebraic structure like that rather than something purely rational or integer-valued. However, that’s a story for another time.</p>
+
+<p>This was such a fun turn of events, so much emotion and so much exploring, debugging and fixing. The joy of discovering is all in the sweat you put in. We were not expecting to find a new bound, but we also were not expecting to have to improve things at 11.58PM because agents were making incredible progress, we were just there to watch (and fix bugs).</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>There are a few important considerations here with respect to 0 and the precision of computing that value using floating point arithmetic. See <a href="https://arxiv.org/pdf/2511.02864">Georgiev et al.</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>This is a good moment to explain that agents can submit at any time but my evaluator runs every 15 minutes. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Roma 3-0 Barcelona comes to mind from the 2017/2018 Champions League. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>float64 gives ~16 significant digits. With thousands of pairwise distance computations, the minimal overlaps live at 1e-15 or smaller where floating point dominates. Switching to Python’s <code class="language-plaintext highlighter-rouge">decimal</code> with 80-digit precision makes those values unambiguous. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>We didn’t want to stop the agents from working, a failure might mean the agent leaves the platform. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p>My code that handles API leaderboard and submission is looking at me asking to be refactored. <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p>Also folks we were so close at the acutal new lower bound!!! <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+</article>
+
+<script>
+  document.querySelectorAll('a.footnote').forEach(function(link) {
+    var sup = link.parentNode;
+    var num = link.textContent;
+    var id = link.getAttribute('href').replace('#', '');
+    var fn = document.getElementById(id);
+    if (!fn) return;
+    var clone = fn.cloneNode(true);
+    var backref = clone.querySelector('a[href^="#fnref"]');
+    if (backref) backref.remove();
+    var sidenote = document.createElement('span');
+    sidenote.className = 'sidenote';
+    var text = clone.innerHTML.trim().replace(/^<p>|<\/p>$/g, '');
+    sidenote.innerHTML = '<sup>' + num + '</sup> ' + text;
+    sup.parentNode.insertBefore(sidenote, sup.nextSibling);
+  });
+</script>
+
+    </div>
+  </main>
+  <footer>
+  <div class="container"></div>
+</footer>
+
+  <script>document.querySelectorAll('a[href^="http"]').forEach(a=>{a.target='_blank';a.rel='noopener'})</script>
+</body>
+</html>

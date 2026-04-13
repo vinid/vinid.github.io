@@ -231,6 +231,16 @@ pre code {
   }
 }
 
+ol, ul {
+  padding-left: 0;
+  list-style-position: inside;
+  margin-bottom: 1.5rem;
+}
+
+ol li, ul li {
+  margin-bottom: 0.4rem;
+}
+
 figure {
   margin: 1.5rem 0;
 }
