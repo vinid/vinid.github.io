@@ -8,7 +8,7 @@ permalink: /about/
 
 <p data-animate="2">
   I co-invented <a href="https://www.nature.com/articles/s41586-025-08661-4">TextGrad</a> (Nature 2025)
-  and <a href="https://github.com/test-time-training/discover">TTT-Discover</a>.
+  and <a href="https://github.com/test-time-training/discover">TTT-Discover (ICML 2026)</a>.
   I co-organized <a href="https://agents4science.stanford.edu/">Agents4Science</a>, the first AI-first
   scientific conference, covered in
   <a href="https://www.science.org/content/article/futuristic-meeting-ais-took-lead-producing-and-reviewing-all-studies">Science</a>,
