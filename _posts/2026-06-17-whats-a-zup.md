@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What's a ZUP? On Research, Ego, and What Actually Gets Cited"
+title: "What's a ZUP? On research, ego, and what actually gets cited"
 date: 2026-06-17
 category: Research
 ---
