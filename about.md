@@ -47,7 +47,7 @@ permalink: /about/
 <h2 data-animate="6">Talks</h2>
 
 <p data-animate="7">
-  2026 — Lyft · Harvard · NEC Labs · Instituto de Telecomunicações, Lisbon<br>
+  2026 — AIDDA · UCIC · Lyft · Harvard · NEC Labs · Instituto de Telecomunicações, Lisbon<br>
   2025 — Nvidia · Amazon · Stanford · FBK<br>
   Recorded — <a href="https://www.youtube.com/watch?v=uqRSc-KSA1Y">Pinecone</a> ·
   <a href="https://www.youtube.com/watch?v=ql4TzSIdvoE">Outerbounds</a> ·
