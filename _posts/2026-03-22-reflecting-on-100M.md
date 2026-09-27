@@ -3,6 +3,7 @@ layout: post
 title: "Reflecting on 100M Downloads. The Making of a CLIP model"
 date: 2026-03-22
 category: Fun
+description: "FashionCLIP reached 100M downloads on HuggingFace. How it and my other CLIP models came to be."
 ---
 
 [FashionCLIP](https://huggingface.co/patrickjohncyh/fashion-clip) just reached 100M downloads on HuggingFace. Given the milestone, I wanted to write a bit about how FashionCLIP, and the other CLIP-related work I have done, came to be and how it affected my research career.

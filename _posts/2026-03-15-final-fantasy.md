@@ -3,6 +3,7 @@ layout: post
 title: "Final Fantasy IX and XV"
 date: 2026-03-15
 category: Fun
+description: "Why Final Fantasy IX and XV are my favorite games: big adventures with plenty of downtime to just explore."
 ---
 
 Final Fantasy IX and XV are, most likely, my favorite games ever. There is something about the adventure combined with plenty of downtime that makes them such good games for me. In both games you have this impending sense that something has to happen; there is something bigger than you happening, and you are the hero called to save the world. However, both games are "open" in the sense that you have plenty of time to do whatever you want, explore and just have fun.

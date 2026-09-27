@@ -5,6 +5,7 @@ baseurl: ""
 author: Federico Bianchi
 twitter:
   username: federicobianchy
+  card: summary
 
 plugins:
   - jekyll-seo-tag
@@ -16,6 +17,12 @@ permalink: pretty
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/profile-og.jpg
 
 exclude:
   - Gemfile

@@ -3,6 +3,7 @@ layout: post
 title: "On Pushing The Boundaries of Mathematics"
 date: 2026-03-15
 category: Research
+description: "From hating math class to using AI and compute to push results on open math problems."
 ---
 
 I was never a smart kid and I probably never will be. I hated going to school and math class was, unfortunately, part of the curriculum. I distinctly remember the painful stomach ache I used to get on test day. While the day before I was procrastinating by playing video games and, of course, not studying, the day of the test was filled with angst and anxiety waiting for the teacher to get to class and hand me the test sheet. Even just recalling some of those moments makes me feel a little uncomfortable.

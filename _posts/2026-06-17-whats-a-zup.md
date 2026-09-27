@@ -3,6 +3,7 @@ layout: post
 title: "What's a ZUP? On research, ego, and what actually gets cited"
 date: 2026-06-17
 category: Research
+description: "A made-up currency from our NegotiationArena paper, and what it says about research, ego, and what actually gets cited."
 ---
 
 # Throwback

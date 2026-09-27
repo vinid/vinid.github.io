@@ -3,6 +3,7 @@ layout: post
 title: "Learning to Discover at Test Time"
 date: 2026-09-27
 category: Research
+description: "How TTT-Discover trains a model at test time to find a TriMul GPU kernel faster than every human entry."
 ---
 
 This blog post is about our method TTT-Discover from our ICML paper "Learning to Discover at Test Time".[^1] Instead of presenting the paper in the usual order I am going to present it through an incremental story. Please note that what I am going to show is in some cases a bit handwavy as I will be conflating numbers from different experiments for the sake of giving a coherent story.[^2]
