@@ -14,6 +14,7 @@ permalink: /about/
   <a href="https://www.science.org/content/article/futuristic-meeting-ais-took-lead-producing-and-reviewing-all-studies">Science</a>,
   <a href="https://www.nature.com/articles/d41586-025-03363-3">Nature</a>, and
   <a href="https://www.technologyreview.com/2025/08/22/1122304/ai-scientist-research-autonomous-agents/">MIT Technology Review</a>.
+  I was also interviewed by <a href="https://www.nature.com/articles/d41586-026-02235-8">Nature</a> on AI agents that check the scientific literature.
 </p>
 
 <p data-animate="3">
@@ -47,8 +48,8 @@ permalink: /about/
 <h2 data-animate="6">Talks</h2>
 
 <p data-animate="7">
-  2026 — CAISc (Panel) · AI Engineer World's Fair · MiniMax · AIDDA · UCIC · Harvard · NEC Labs · Instituto de Telecomunicações, Lisbon<br>
-  2025 — Lyft · Nvidia · Amazon · Stanford · FBK<br>
+  2026 — CAISc (Panel) · AI Engineer World's Fair · MiniMax · Nebius · AIDDA · UCIC · Harvard · NEC Labs · Instituto de Telecomunicações, Lisbon · Persona · Columbia University (ML for Finance Conference)<br>
+    2025 — Lyft · Nvidia · Amazon · Stanford · FBK<br>
   Recorded — <a href="https://www.youtube.com/watch?v=uqRSc-KSA1Y">Pinecone</a> ·
   <a href="https://www.youtube.com/watch?v=ql4TzSIdvoE">Outerbounds</a> ·
   <a href="https://www.youtube.com/watch?v=2jJLMeWU2nk">LightOn AI</a> ·
