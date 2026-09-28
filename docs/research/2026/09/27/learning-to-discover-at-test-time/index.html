@@ -15,19 +15,21 @@
 <meta property="og:title" content="Learning to Discover at Test Time" />
 <meta name="author" content="Federico Bianchi" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This blog post is about our method TTT-Discover from our ICML paper “Learning to Discover at Test Time”.1 Instead of presenting the paper in the usual order I am going to present it through an incremental story. Please note that what I am going to show is in some cases a bit handwavy as I will be conflating numbers from different experiments for the sake of giving a coherent story.2 Learning to Discover at Test Time. ICML 2026. &#8617; The impact should be minimal, but it’s important to refer to the paper for the details. &#8617;" />
-<meta property="og:description" content="This blog post is about our method TTT-Discover from our ICML paper “Learning to Discover at Test Time”.1 Instead of presenting the paper in the usual order I am going to present it through an incremental story. Please note that what I am going to show is in some cases a bit handwavy as I will be conflating numbers from different experiments for the sake of giving a coherent story.2 Learning to Discover at Test Time. ICML 2026. &#8617; The impact should be minimal, but it’s important to refer to the paper for the details. &#8617;" />
+<meta name="description" content="How TTT-Discover trains a model at test time to find a TriMul GPU kernel faster than every human entry." />
+<meta property="og:description" content="How TTT-Discover trains a model at test time to find a TriMul GPU kernel faster than every human entry." />
 <link rel="canonical" href="https://federicobianchi.io/research/2026/09/27/learning-to-discover-at-test-time/" />
 <meta property="og:url" content="https://federicobianchi.io/research/2026/09/27/learning-to-discover-at-test-time/" />
 <meta property="og:site_name" content="Federico Bianchi" />
+<meta property="og:image" content="https://federicobianchi.io/assets/img/profile-og.jpg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2026-09-27T00:00:00-07:00" />
 <meta name="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://federicobianchi.io/assets/img/profile-og.jpg" />
 <meta property="twitter:title" content="Learning to Discover at Test Time" />
 <meta name="twitter:site" content="@federicobianchy" />
 <meta name="twitter:creator" content="@Federico Bianchi" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Federico Bianchi"},"dateModified":"2026-09-27T00:00:00-07:00","datePublished":"2026-09-27T00:00:00-07:00","description":"This blog post is about our method TTT-Discover from our ICML paper “Learning to Discover at Test Time”.1 Instead of presenting the paper in the usual order I am going to present it through an incremental story. Please note that what I am going to show is in some cases a bit handwavy as I will be conflating numbers from different experiments for the sake of giving a coherent story.2 Learning to Discover at Test Time. ICML 2026. &#8617; The impact should be minimal, but it’s important to refer to the paper for the details. &#8617;","headline":"Learning to Discover at Test Time","mainEntityOfPage":{"@type":"WebPage","@id":"https://federicobianchi.io/research/2026/09/27/learning-to-discover-at-test-time/"},"url":"https://federicobianchi.io/research/2026/09/27/learning-to-discover-at-test-time/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Federico Bianchi"},"dateModified":"2026-09-27T00:00:00-07:00","datePublished":"2026-09-27T00:00:00-07:00","description":"How TTT-Discover trains a model at test time to find a TriMul GPU kernel faster than every human entry.","headline":"Learning to Discover at Test Time","image":"https://federicobianchi.io/assets/img/profile-og.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://federicobianchi.io/research/2026/09/27/learning-to-discover-at-test-time/"},"url":"https://federicobianchi.io/research/2026/09/27/learning-to-discover-at-test-time/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <script>
@@ -218,7 +220,7 @@
       <p>The impact should be minimal, but it’s important to refer to the paper for the details. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:3">
-      <p>This is more or less how very cool systems like AlphaEvolve work. Of course there are more heuristics inside something like AlphaEvolve (e.g., reuse newly found good solutions to extend the horizon of your system). <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>This is more or less how very cool systems like AlphaEvolve work. Of course they use many more heuristics (e.g., reuse newly found good solutions to extend the horizon of your system). <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:4">
       <p>There is also related work that does training. Read the paper; there is an extensive discussion of related work! <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>

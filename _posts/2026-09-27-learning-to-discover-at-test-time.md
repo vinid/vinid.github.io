@@ -134,7 +134,7 @@ In practice, this is very simple to use: [code is online](https://github.com/tes
 
 [^1]: [Learning to Discover at Test Time](https://openreview.net/pdf?id=96zNuQrH9Y). ICML 2026.
 [^2]: The impact should be minimal, but it's important to refer to the paper for the details.
-[^3]: This is more or less how very cool systems like AlphaEvolve work. Of course there are more heuristics inside something like AlphaEvolve (e.g., reuse newly found good solutions to extend the horizon of your system).
+[^3]: This is more or less how very cool systems like AlphaEvolve work. Of course they use many more heuristics (e.g., reuse newly found good solutions to extend the horizon of your system).
 [^4]: There is also related work that does training. Read the paper; there is an extensive discussion of related work!
 [^5]: You can replace TriMul with any algorithm and any property you might want to improve, but TriMul is the only case where I have the full numbers of the entire process so we will stick with that.
 [^6]: These numbers came from the time of submission.
