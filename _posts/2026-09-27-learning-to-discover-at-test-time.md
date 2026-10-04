@@ -44,9 +44,9 @@ Our goal for today would be to see if we can make this faster. As a reference we
 | 4 | 3655 |
 | 5 | 4233 |
 
-The easiest thing we can do is to just sample from a language model Best-of-N style. Language models have seen algorithms — tons of kernels, they've read GitHub, they've read textbooks, they have access to a lot of this information during training. It's reasonable to assume they can just combine this into a new kernel. 
+The easiest thing we can do is to just sample from a language model in a Best-of-N way. Language models have seen this kind of data: algorithms online, tons of kernels, they've read GitHub, all of this information is available during training. It's reasonable to assume they can just combine this into a new kernel. 
 
-We ask "create a TriMul implementation", we generate many samples and look at those. Some will be good, some will be bad, we will just pick the best. We know from the literature that sampling many times is useful — test-time scaling. How do we pick the best? Through a verifier.
+We ask "create a TriMul implementation", we generate many samples and look at those. Some will be good, some will be bad, we will just pick the best. We know from the literature that sampling many times is useful (this is a "test-time scaling" argument). How do we pick the best? Through a verifier.
 
 For kernels, we take a bunch of matrices, throw them on the hardware, check for correctness, estimate how fast this kernel is.[^7] 
 
@@ -94,11 +94,11 @@ We get to around 1985µs. It's good, but not yet good enough.
 
 The question is, why doesn't it work? Here we have a bit of a conceptual shift. 
 
-Standard reinforcement learning maximizes the expected reward — it raises the typical rollout, makes the policy more likely to generate good-on-average results. But that's not the goal of discovery. Discovery needs one good rollout. You don't need a policy that writes good kernels on average — you need a policy that eventually produces one good rollout, which becomes the new discovery. Different focus.
+Standard reinforcement learning maximizes the expected reward: it raises the typical rollout, makes the policy more likely to generate good-on-average results. But that's not the goal of discovery. Discovery needs one good rollout. You don't need a policy that writes good kernels on average; you need a policy that eventually produces one good rollout, which becomes the new discovery. Different focus.
 
 <video src="/assets/img/discovery/05a-standard-vs-discovery-rl.mp4" autoplay loop muted playsinline style="max-width: 100%; margin: 2rem 0;"></video>
 
-Let me say this again, because the change is kind of important: the artifact we get out of the policy is the goal of the discovery process. In standard RL, you train and deploy the policy because you want a good policy. In discovery, all we want is the best artifact — we're going to train a model, use it to generate the kernel we want, then throw the model away, because we don't need it anymore.
+Let me say this again, because the change is kind of important: the artifact we get out of the policy is the goal of the discovery process. In standard RL, you train and deploy the policy because you want a good policy. In discovery, all we want is the best artifact: we're going to train a model, use it to generate the kernel we want, then throw the model away, because we don't need it anymore.
 
 
 # The Entropic Objective
