@@ -8,13 +8,12 @@ permalink: /about/
 
 <p data-animate="2">
   I co-invented <a href="https://www.nature.com/articles/s41586-025-08661-4">TextGrad</a> (Nature 2025)
-  and <a href="https://github.com/test-time-training/discover">TTT-Discover (ICML 2026)</a>.
+  and <a href="https://github.com/test-time-training/discover">TTT-Discover</a> (ICML 2026).
   I co-organized <a href="https://agents4science.stanford.edu/">Agents4Science</a>, the first AI-first
   scientific conference, covered in
   <a href="https://www.science.org/content/article/futuristic-meeting-ais-took-lead-producing-and-reviewing-all-studies">Science</a>,
   <a href="https://www.nature.com/articles/d41586-025-03363-3">Nature</a>, and
   <a href="https://www.technologyreview.com/2025/08/22/1122304/ai-scientist-research-autonomous-agents/">MIT Technology Review</a>.
-  I was also interviewed by <a href="https://www.nature.com/articles/d41586-026-02235-8">Nature</a> on AI agents that check the scientific literature.
 </p>
 
 <p data-animate="3">
@@ -45,16 +44,38 @@ permalink: /about/
   <a href="https://github.com/PathologyFoundation/plip">PLIP</a>.
 </p>
 
-<h2 data-animate="6">Talks</h2>
+<h2 data-animate="6">Interviews</h2>
 
-<p data-animate="7">
-  2026 — CAISc (Panel) · AI Engineer World's Fair · MiniMax · Nebius · AIDDA · UCIC · Harvard · NEC Labs · Instituto de Telecomunicações, Lisbon · Persona · Columbia University (ML for Finance Conference)<br>
-    2025 — Lyft · Nvidia · Amazon · Stanford · FBK<br>
-  Recorded — <a href="https://www.youtube.com/watch?v=uqRSc-KSA1Y">Pinecone</a> ·
-  <a href="https://www.youtube.com/watch?v=ql4TzSIdvoE">Outerbounds</a> ·
-  <a href="https://www.youtube.com/watch?v=2jJLMeWU2nk">LightOn AI</a> ·
-  <a href="https://www.youtube.com/watch?v=gYYZHiWh54I">Neptune AI</a>
-</p>
+<ul class="section-list" data-animate="6">
+  <li>
+    <a href="https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why">An AI agent emailed hundreds of researchers for help</a>
+    <span class="desc">Science · 2026</span>
+  </li>
+  <li>
+    <a href="https://www.nature.com/articles/d41586-026-02235-8">AI agents that check the scientific literature</a>
+    <span class="desc">Nature · 2026</span>
+  </li>
+  <li>
+    <a href="https://www.technologyreview.com/2023/03/28/1070390/what-if-we-could-just-ask-ai-to-be-less-biased/">What if we could just ask AI to be less biased?</a>
+    <span class="desc">MIT Technology Review · 2023</span>
+  </li>
+</ul>
+
+<h2 data-animate="7">Talks</h2>
+
+<dl class="labeled-list" data-animate="7">
+  <dt>2026</dt>
+  <dd>CAISc (Panel) · AI Engineer World's Fair · MiniMax · Nebius · AIDDA · UCIC · Harvard · NEC Labs · Instituto de Telecomunicações, Lisbon · Persona · Columbia University (ML for Finance Conference)</dd>
+  <dt>2025</dt>
+  <dd>Lyft · Nvidia · Amazon · Stanford · FBK</dd>
+  <dt>Recorded</dt>
+  <dd>
+    <a href="https://www.youtube.com/watch?v=uqRSc-KSA1Y">Pinecone</a> ·
+    <a href="https://www.youtube.com/watch?v=ql4TzSIdvoE">Outerbounds</a> ·
+    <a href="https://www.youtube.com/watch?v=2jJLMeWU2nk">LightOn AI</a> ·
+    <a href="https://www.youtube.com/watch?v=gYYZHiWh54I">Neptune AI</a>
+  </dd>
+</dl>
 
 <p data-animate="8">
   Editor for the Neuro-symbolic AI journal. Action Editor for ACL Rolling Review.
